@@ -1,0 +1,5 @@
+{
+  "stringkey001" : "String value one",
+  "stringkey002" : "String value two, returning from the void - PR1",
+  "stringkey003" : "String value three, returning as well - PR1"
+}
