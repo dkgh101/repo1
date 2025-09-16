@@ -1,0 +1,552 @@
+{
+	"smartling": {
+		"translate_paths": [
+			{
+				"path": "/strings/text",
+				"key": "/strings/id",
+				"instruction": "/strings/notes",
+				"key_generation_strategy": "strict"
+			}
+		]
+	},
+	"strings": [
+		{
+			"type": "frontmatter",
+			"text": "Axon Pixel Google Tag Manager Integration",
+			"notes": "title for document",
+			"start": "title",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4929"
+		},
+		{
+			"text": "This guide assumes that you have a Google Tag Manager (GTM) account with a Data Layer that receives ecommerce events such as viewing a product, add to cart, and checkout.",
+			"start": 58,
+			"end": 228,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4930",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "This guide also assumes that you are familiar with the core GTM concepts: tags, triggers, variables, and the data layer.\nThis guide does not explain how to set up the Data Layer to provide data to GTM.",
+			"start": 230,
+			"end": 431,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4931",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "/%%locale%%/ecommerce/shopify/",
+			"start": "%%1741%%",
+			"notes": "link url",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4932"
+		},
+		{
+			"text": "If you have a Shopify site, integrate with the [Axon Shopify App](%%1741%%) instead.",
+			"start": 453,
+			"end": 551,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4933",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Installing the Axon Pixel",
+			"start": 565,
+			"end": 590,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4934",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"type": "placeholder",
+			"text": "/%%locale%%/ecommerce/shopify/",
+			"start": "%%1742%%",
+			"notes": "link url",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4935"
+		},
+		{
+			"text": "Before you begin, check that your GTM configuration works on all pages of your site.\nIf your site runs Shopify in headless mode, double check that GTM also fires on your checkout page.\nIf not, you should also [install the Shopify App](%%1742%%) to capture the events on your checkout page.",
+			"start": 612,
+			"end": 915,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4936",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Log in to your Google Tag Manager account.\nClick your website’s container, and under &lt;UILabel&gt;Tags&lt;/UILabel&gt;, click &lt;UILabel&gt;New&lt;/UILabel&gt;.\nFor &lt;UILabel&gt;Tag Configuration&lt;/UILabel&gt;, choose &lt;UILabel&gt;Custom HTML&lt;/UILabel&gt;.\nEnter a name, for example “Axon &mdash; Init”.",
+			"start": 929,
+			"end": 1199,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4937",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "https://dash.applovin.com/o/account#keys",
+			"start": "%%1743%%",
+			"notes": "link url",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4938"
+		},
+		{
+			"text": "Copy and paste the following code into your tag.\nReplace “&lt;var&gt;«your-event-key»&lt;/var&gt;” with the key from your [AppLovin Account](%%1743%%).",
+			"start": 1204,
+			"end": 1378,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4939",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Click under &lt;UILabel&gt;Triggering&lt;/UILabel&gt; and select &lt;UILabel&gt;Initialization - All Pages&lt;/UILabel&gt;.\nThis ensures that the Axon Pixel loads on all pages.\nClick &lt;UILabel&gt;Save&lt;/UILabel&gt;.",
+			"start": 1968,
+			"end": 2157,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4940",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "The Axon Pixel should load and initialize on each page of your site.\nEnsure that your GTM &lt;UILabel&gt;Initialization - All Pages Trigger&lt;/UILabel&gt; fires on each page to which you send an event.",
+			"start": 2182,
+			"end": 2372,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4941",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "page_view",
+			"start": "%%1744%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4942"
+		},
+		{
+			"type": "placeholder",
+			"text": "view_item",
+			"start": "%%1745%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4943"
+		},
+		{
+			"type": "placeholder",
+			"text": "add_to_cart",
+			"start": "%%1746%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4944"
+		},
+		{
+			"type": "placeholder",
+			"text": "begin_checkout",
+			"start": "%%1747%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4945"
+		},
+		{
+			"type": "placeholder",
+			"text": "purchase",
+			"start": "%%1748%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4946"
+		},
+		{
+			"type": "placeholder",
+			"text": "sign_up",
+			"start": "%%1749%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4947"
+		},
+		{
+			"type": "placeholder",
+			"text": "login",
+			"start": "%%1750%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4948"
+		},
+		{
+			"text": "At a minimum, provide `%%1744%%`, `%%1745%%`, `%%1746%%`, `%%1747%%`, and `%%1748%%` events.\nAlso include `%%1749%%` or `%%1750%%` if your site uses these events.",
+			"start": 2403,
+			"end": 2572,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4949",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Tracking Events with the Axon Pixel",
+			"start": 2587,
+			"end": 2622,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4950",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"text": "To send an occurrence of an ecommerce event to Axon, use the following syntax.\nEach event should trigger when its corresponding event happens in the data layer.",
+			"start": 2624,
+			"end": 2784,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4951",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Parameters",
+			"start": 2880,
+			"end": 2890,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4952",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"text": "Name",
+			"start": 2893,
+			"end": 2897,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4953",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"text": "Type",
+			"start": 2908,
+			"end": 2912,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4954",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"text": "Description",
+			"start": 2917,
+			"end": 2928,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4955",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"type": "placeholder",
+			"text": "event_name",
+			"start": "%%1751%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4956"
+		},
+		{
+			"text": "`%%1751%%`",
+			"start": 3143,
+			"end": 3155,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4957",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"text": "string",
+			"start": 3158,
+			"end": 3164,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4958",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"type": "placeholder",
+			"text": "/%%locale%%/ecommerce/events-and-objects/",
+			"start": "%%1752%%",
+			"notes": "link url",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4959"
+		},
+		{
+			"text": "The name for this event. See [Axon Pixel Events and Objects](%%1752%%) for available events.",
+			"start": 3167,
+			"end": 3284,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4960",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"type": "placeholder",
+			"text": "event_data",
+			"start": "%%1753%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4961"
+		},
+		{
+			"text": "`%%1753%%`",
+			"start": 3296,
+			"end": 3308,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4962",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"text": "object",
+			"start": 3311,
+			"end": 3317,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4963",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"type": "placeholder",
+			"text": "/%%locale%%/ecommerce/events-and-objects/",
+			"start": "%%1754%%",
+			"notes": "link url",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4964"
+		},
+		{
+			"text": "The data for this event. See [Axon Pixel Events and Objects](%%1754%%) for data to send. *(Note: you do not need to send `event_data` with `page_view`.)*",
+			"start": 3320,
+			"end": 3498,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4965",
+			"notes": "",
+			"type": "tableCell"
+		},
+		{
+			"type": "placeholder",
+			"text": "event_name",
+			"start": "%%1755%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4966"
+		},
+		{
+			"type": "placeholder",
+			"text": "page_view",
+			"start": "%%1756%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4967"
+		},
+		{
+			"type": "placeholder",
+			"text": "event_data",
+			"start": "%%1757%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4968"
+		},
+		{
+			"text": "All events require the `%%1755%%` argument.\nEach event except for `%%1756%%` also requires certain `%%1757%%`, described in the event-specific sections below.",
+			"start": 3502,
+			"end": 3665,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4969",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Passing Data to the Axon Pixel",
+			"start": 3671,
+			"end": 3701,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4970",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"text": "There are two ways to populate the event in GTM:",
+			"start": 3702,
+			"end": 3750,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4971",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Method 1: Single GTM Variable",
+			"start": 3757,
+			"end": 3786,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4972",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"type": "placeholder",
+			"text": "event_data",
+			"start": "%%1758%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4973"
+		},
+		{
+			"text": "For each of the events that require `%%1758%%`, AppLovin recommends that you create a GTM Variable that is the payload.\nFor example,",
+			"start": 3788,
+			"end": 3922,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4974",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "{{Axon - Add To Cart}}",
+			"start": "%%1759%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4975"
+		},
+		{
+			"text": "(where `%%1759%%` is a GTM Variable you create).",
+			"start": 4023,
+			"end": 4085,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4976",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Method 2: Composition of GTM Variables",
+			"start": 4092,
+			"end": 4130,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4977",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"text": "You can also build the object composed of multiple Variables.\nFor example:",
+			"start": 4132,
+			"end": 4206,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4978",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "{{GA - Ecommerce}}",
+			"start": "%%1760%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4979"
+		},
+		{
+			"text": "The Axon Pixel is compatible with the Google Analytics 4 (GA4) API.\nIf your Data Layer is configured to store data in GA4 format, then you can pass those Data Layer Variables directly to the tag itself.\nFor example, if `%%1760%%` refers to the ecommerce field of your Data Layer which is set up like GA4, you can pass it directly to the Pixel with:",
+			"start": 4436,
+			"end": 4794,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4980",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "This saves you from needing to create any intermediate Variables.",
+			"start": 4892,
+			"end": 4957,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4981",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "If your Data Layer is not set up like GA4, you may need to create new Variables for the Axon Pixel.",
+			"start": 4959,
+			"end": 5058,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4982",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "Enhanced User Identification (Recommended)",
+			"start": 5072,
+			"end": 5114,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4983",
+			"notes": "",
+			"type": "heading"
+		},
+		{
+			"type": "placeholder",
+			"text": "_axwrt",
+			"start": "%%1761%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4984"
+		},
+		{
+			"text": "The Axon Pixel sets the first-party cookie `%%1761%%` to identify users.\nThis cookie is automatically sent in every request to your website.\nTo enhance user identification, AppLovin strongly recommends that you perform the following on the back-end of your site:",
+			"start": 5116,
+			"end": 5376,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4985",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "_axwrt",
+			"start": "%%1762%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4986"
+		},
+		{
+			"type": "placeholder",
+			"text": "axwrt",
+			"start": "%%1763%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4987"
+		},
+		{
+			"text": "Whenever you see the cookie `%%1762%%` in an HTTP request, set the HTTP response such that it includes a header that sets a new first-party HTTP cookie `%%1763%%` (removing the underscore) with a one-year expiration date.",
+			"start": 5378,
+			"end": 5594,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4988",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"text": "The value of this cookie should be the same as the value of the corresponding cookie passed in the request.",
+			"start": 5597,
+			"end": 5704,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4989",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "mysite.com",
+			"start": "%%1764%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4990"
+		},
+		{
+			"type": "placeholder",
+			"text": ".mysite.com",
+			"start": "%%1765%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4991"
+		},
+		{
+			"text": "The domain for the cookie should be your site, prefixed with a period.\nFor example, if your site is `%%1764%%`, the domain attribute should be `%%1765%%`.\nNote: do not include “www”.",
+			"start": 5707,
+			"end": 5898,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4992",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "/",
+			"start": "%%1766%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4993"
+		},
+		{
+			"text": "The path for the cookie should be `%%1766%%`.",
+			"start": 5901,
+			"end": 5939,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4994",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "HttpOnly",
+			"start": "%%1767%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4995"
+		},
+		{
+			"text": "Do not set the cookie to be `%%1767%%`.",
+			"start": 5942,
+			"end": 5981,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4996",
+			"notes": "",
+			"type": "paragraph"
+		},
+		{
+			"type": "placeholder",
+			"text": "_axwrt",
+			"start": "%%1768%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4997"
+		},
+		{
+			"type": "placeholder",
+			"text": "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",
+			"start": "%%1769%%",
+			"notes": "DNT",
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4998"
+		},
+		{
+			"text": "For example, if your site sees an HTTP request where the value of cookie `%%1768%%` is `%%1769%%`, then add to your response the header:",
+			"start": 5983,
+			"end": 6145,
+			"id": "2fbd424ddd8d9fcf28aecb37de7f2cd47aac499b-4999",
+			"notes": "",
+			"type": "paragraph"
+		}
+	]
+}
