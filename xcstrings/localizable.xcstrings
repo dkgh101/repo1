@@ -1,0 +1,27 @@
+{
+  "sourceLanguage": "en-US",
+  "strings": {
+    "hello_message": {
+      "localizations": {
+        "en-US": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hello!"
+          }
+        },
+        "fr-FR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bonjour !"
+          }
+        },
+        "de-DE": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hallo!"
+          }
+        }
+      }
+    }
+  }
+}
