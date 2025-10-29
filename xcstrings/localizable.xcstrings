@@ -1,27 +1,16 @@
 {
-  "sourceLanguage": "en-US",
-  "strings": {
-    "hello_message": {
-      "localizations": {
-        "en-US": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hello!"
-          }
-        },
-        "fr-FR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bonjour !"
-          }
-        },
-        "de-DE": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hallo!"
+    "sourceLanguage" : "en",
+    "strings" : {
+      "Hello world!" : {
+        "localizations" : {
+          "en" : {
+            "stringUnit" : {
+              "state" : "translated",
+              "value" : "Hi there!"
+            }
           }
         }
       }
-    }
+    },
+    "version" : "1.0"
   }
-}
