@@ -1,0 +1,5 @@
+{
+  "stringkey001-" : "Zeichenkettenwert eins",
+  "stringkey002-" : "Stringwert zwei, Rückgabewert aus void",
+  "stringkey003-" : "Der Stringwert drei wird ebenfalls zurückgegeben."
+}
