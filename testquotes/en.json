@@ -1,0 +1,4 @@
+{
+    "deleteUserConfirmation": "Are you sure you want to delete the user record '{{username}}'?",
+    "deleteUserConfirmation2": "Are you sure you want to delete the user record {{username}}?"
+}
