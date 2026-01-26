@@ -1,0 +1,4 @@
+{
+  "stringkey1": "Dies ist englischer Text und autorisiert, sollte also veröffentlicht werden.",
+  "stringkey2": "Dies ist englischer und nicht autorisierter Text. Wenn die Option „Originalstrings einbeziehen“ deaktiviert ist, sollte dieses Feld leer sein."
+}
