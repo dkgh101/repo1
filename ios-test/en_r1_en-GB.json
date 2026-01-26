@@ -1,0 +1,4 @@
+{
+  "stringkey1": "this is english and authorised so should be published",
+  "stringkey2": "this is english and unauthorised so if include original strings is \"off\" then this should be empty."
+}
