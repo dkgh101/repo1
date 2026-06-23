@@ -1,5 +1,5 @@
 {
-  "string-newfile" : "first string that doesn't smartmatch",
+  "string-newfile" : "first string that doesn't smartmatch edit to force PR",
   "string-newfile2" : "a second string that doesn't smartmatch",
   "string-newfile3" : "im hungry"
 }
