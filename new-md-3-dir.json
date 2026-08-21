@@ -1,0 +1,3185 @@
+{
+"smartling": {
+  "translate_paths": [
+    {
+      "path": "translate"
+    }
+  ],
+  "string_format_paths": "markdown: *",
+  "markdown_trailing_linebreaks_tracking": "on",
+  "entity_escaping": "false",
+  "markdown_skip_escaping_for": "|-"
+},
+  "export_author": "iuliia.shyshkina",
+  "export_date": "2026-02-13T12:46:15.142Z",
+  "original_document": {
+    "_id": {
+      "$oid": "616ec6442eec2926f7209379"
+    },
+    "url": "products/platform",
+    "components": [
+      {
+        "key": "Nav",
+        "props": {
+          "left": [
+            {
+              "title": "Cloud",
+              "links": [
+                {
+                  "title": "Atlas",
+                  "text": "Fully managed cloud database",
+                  "href": "/cloud/atlas"
+                },
+                {
+                  "title": "Atlas Data Lake",
+                  "text": "Query and combine AWS S3 and MongoDB data",
+                  "href": "/atlas/data-lake"
+                },
+                {
+                  "title": "Atlas Search",
+                  "text": "Cloud-native full-text search engine",
+                  "href": "/atlas/search"
+                },
+                {
+                  "title": "Realm",
+                  "text": "Application Development Services",
+                  "href": "/realm"
+                },
+                {
+                  "title": "Charts",
+                  "text": "Native visualization for MongoDB data",
+                  "href": "/products/charts"
+                },
+                {
+                  "title": "Atlas for Government",
+                  "text": "Atlas for US Government workloads",
+                  "href": "/cloud/atlas/government"
+                }
+              ]
+            },
+            {
+              "title": "Software",
+              "links": [
+                {
+                  "title": "Community Server",
+                  "text": "A free and open document database",
+                  "href": "/try/download/community"
+                },
+                {
+                  "title": "Enterprise Server",
+                  "text": "Advanced features and security",
+                  "href": "/try/download/enterprise"
+                },
+                {
+                  "title": "Developer Tools",
+                  "text": "Connect, configure and work with MongoDB",
+                  "href": "/developer-tools"
+                },
+                {
+                  "title": "Compass",
+                  "text": "GUI for MongoDB",
+                  "href": "/products/compass"
+                },
+                {
+                  "title": "Ops Manager",
+                  "text": "On-prem management platform for MongoDB",
+                  "href": "/products/ops-manager"
+                },
+                {
+                  "title": "Connectors",
+                  "text": "Easy integrations to your data estate",
+                  "href": "/connectors"
+                }
+              ]
+            },
+            {
+              "title": "Pricing",
+              "links": [],
+              "href": "/pricing"
+            },
+            {
+              "title": "Learn",
+              "links": [
+                {
+                  "title": "What is MongoDB?",
+                  "text": "Start here",
+                  "href": "/what-is-mongodb"
+                },
+                {
+                  "title": "University",
+                  "href": "https://university.mongodb.com",
+                  "text": "Free online courses from MongoDB"
+                },
+                {
+                  "title": "Blog",
+                  "href": "/blog",
+                  "text": "Updates, tutorials, people"
+                },
+                {
+                  "title": "Developer Hub",
+                  "href": "https://developer.mongodb.com",
+                  "text": "Developer best practices, trends, insights"
+                },
+                {
+                  "title": "Resources",
+                  "href": "/resources",
+                  "text": "Webinars, white papers, datasheets, and more"
+                },
+                {
+                  "title": "Training",
+                  "href": "/training",
+                  "text": "Instructor-led sessions on your schedule"
+                },
+                {
+                  "title": "Events",
+                  "href": "/events",
+                  "text": "Worldwide community events"
+                },
+                {
+                  "title": "Community",
+                  "href": "https://community.mongodb.com",
+                  "text": "The MongoDB Community discussion forums"
+                }
+              ]
+            },
+            {
+              "title": "Solutions",
+              "links": [
+                {
+                  "title": "Customers",
+                  "text": "Who uses MongoDB",
+                  "href": "/who-uses-mongodb"
+                },
+                {
+                  "title": "Use Cases",
+                  "text": "How MongoDB is used",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Consulting",
+                  "text": "Accelerate success with MongoDB",
+                  "href": "/products/consulting"
+                },
+                {
+                  "title": "Partners",
+                  "text": "Find or become a partner",
+                  "href": "/partners"
+                }
+              ]
+            },
+            {
+              "title": "Docs",
+              "links": [
+                {
+                  "title": "Cloud",
+                  "text": "Atlas, Realm, and more",
+                  "href": "https://docs.mongodb.com/cloud/"
+                },
+                {
+                  "title": "Server",
+                  "href": "https://docs.mongodb.com/manual/",
+                  "text": "The database"
+                },
+                {
+                  "title": "Drivers",
+                  "text": "Language APIs",
+                  "href": "https://docs.mongodb.com/ecosystem/drivers/"
+                },
+                {
+                  "title": "Tools",
+                  "text": "Compass, Charts, Connectors, and more",
+                  "href": "https://docs.mongodb.com/tools/"
+                },
+                {
+                  "title": "How to Guides",
+                  "text": "Get started in minutes",
+                  "href": "https://docs.mongodb.com/guides/"
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "Contact",
+              "href": "/contact",
+              "button": false
+            },
+            {
+              "title": "Sign In",
+              "href": "https://cloud.mongodb.com/user",
+              "button": false
+            },
+            {
+              "title": "Try Free",
+              "href": "/try",
+              "button": true
+            }
+          ],
+          "mobile": [
+            {
+              "text": "Contact",
+              "href": "/contact"
+            }
+          ],
+          "navType": "",
+          "banner": {
+            "bannerText": "",
+            "bannerHref": "https://www.mongodb.com/blog/post/mongodb-named-leader-2023-gartner-magic-quadrant-cloud-database-management-systems?tck=gartner2023",
+            "bannerType": "1",
+            "bannerTheme": 3,
+            "pillText": "",
+            "href": "",
+            "items": [
+              {
+                "pillText": "Announcement",
+                "bannerText": "Learn why MongoDB was named a Leader in the 2025 Gartner® Magic Quadrant™ <mark>Learn more ></mark>",
+                "href": "https://www.mongodb.com/resources/solutions/use-cases/gartner-magic-quadrant-leader?tck=pencil_banner",
+                "pillText#localised": true,
+                "bannerText#localised": true
+              },
+              {
+                "pillText": "ANNOUNCEMENT",
+                "bannerText": "<b>Voyage AI joins MongoDB to power more accurate and trustworthy AI applications on Atlas.</b> <mark>Learn more ></mark>",
+                "href": "https://www.mongodb.com/blog/post/redefining-database-ai-why-mongodb-acquired-voyage-ai?tck=pencil_banner",
+                "pillText#localised": true,
+                "bannerText#localised": true
+              },
+              {
+                "pillText": "NEW",
+                "bannerText": "MongoDB 8.0: Experience unmatched speed and performance. <mark>Check it out ></mark>",
+                "href": "https://www.mongodb.com/products/updates/version-release?tck=pencil_banner",
+                "pillText#localised": true,
+                "bannerText#localised": true,
+                "href#localised": false
+              }
+            ],
+            "pillText#localised": false
+          },
+          "notSticky": false
+        },
+        "id": "e1fa2696-0086-44d0-957c-6a686dbdbe99"
+      },
+      {
+        "key": "HeroV2",
+        "props": {
+          "theme": "default",
+          "headingType": "heading2",
+          "eyebrow": "MongoDB Atlas",
+          "title": "<Mark>MongoDB Atlas.</Mark><br/>The modern multi-cloud database.",
+          "description": "Atlas combines the flexible document model with a suite of data services to give you a versatile cloud database that simplifies everything you build.",
+          "ctaButton": {
+            "text": "Get Started",
+            "href": "/cloud/atlas/register",
+            "openInNewWindow": true,
+            "faux": false,
+            "text#localised": true
+          },
+          "ctaLink": {
+            "text": "Document model benefits",
+            "href": "https://www.mongodb.com/library/document-model/developer-autonomy-document-model?lb-mode=overlay",
+            "openInNewWindow": false,
+            "faux": false,
+            "text#localised": true
+          },
+          "image": "https://webimages.mongodb.com/_com_assets/cms/m6jgrb0ludripg8mx-Technical_ACTION_Developer_blue_EndCap_BS_Lavender%204%20(1).svg?auto=format%252Ccompress",
+          "inverse": true,
+          "noBackground": false,
+          "imageAlt": "An illustration of Database",
+          "verticalSpacing": {
+            "top": "medium",
+            "bottom": "medium"
+          },
+          "eyebrowBadge": false,
+          "eyebrowBanner": {
+            "pill": "",
+            "text": "",
+            "link": {
+              "text": "",
+              "href": "",
+              "openInNewWindow": false,
+              "faux": false
+            },
+            "disableExpand": false
+          },
+          "ctaDisableExpand": false,
+          "passUTMParams": false,
+          "eyebrow#localised": true,
+          "title#localised": true,
+          "description#localised": true,
+          "imageAlt#localised": true
+        },
+        "id": 1632336404728
+      },
+      {
+        "key": "BackgroundWrapper",
+        "props": {
+          "embeddedComponents": [
+            {
+              "key": "Slalom2",
+              "props": {
+                "align": 0,
+                "verticalSpacing": {
+                  "top": "xlarge",
+                  "bottom": "xlarge"
+                },
+                "image": "https://webimages.mongodb.com/_com_assets/cms/m8odnx9awzurjuvwv-General_EVENT_Webinars(1)_Spot%20Spring%20Green.svg?auto=format%252Ccompress",
+                "imageAlt": "Illustration of a booklet with various documents.",
+                "icon": "",
+                "title": "Accelerate your MongoDB Atlas journey",
+                "noAspect": false,
+                "titleType": "alternate",
+                "text": "Master MongoDB Atlas quickly with guided webinars, interactive courses, skill badges, and comprehensive documentation—all designed to simplify your onboarding and accelerate success. Start building with confidence, faster.",
+                "list": [],
+                "cta1text": "Start Learning",
+                "cta1url": "/resources/product/platform/atlas-learning-hub",
+                "cta1type": "button",
+                "cta1disableExpand": false,
+                "cta2text": "",
+                "cta2url": "",
+                "cta2type": "default",
+                "cta2disableExpand": false,
+                "theme": "inverse",
+                "noBackground": true,
+                "layout": 1,
+                "video": {
+                  "webm": "",
+                  "mp4": ""
+                },
+                "videoId": "",
+                "videoType": "",
+                "showControls": "",
+                "eyebrow": "",
+                "imageAlt#localised": true,
+                "title#localised": true,
+                "text#localised": true,
+                "cta1text#localised": true
+              },
+              "id": 1693224346637
+            }
+          ],
+          "backgroundImages": [
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/kufvfwlbw8ao1wrkx-bottom-right.svg?auto=format%252Ccompress",
+              "position": "bottom right"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/kufvgu6gmvr5ycimn-top-right.svg?auto=format%252Ccompress",
+              "position": "top right"
+            }
+          ],
+          "backgroundSize": "",
+          "backgroundColor": "blue80"
+        },
+        "id": 1693224326448
+      },
+      {
+        "key": "LogoWall",
+        "props": {
+          "title": "TRUSTED BY THOUSANDS OF ORGANIZATIONS, INCLUDING",
+          "logos": [
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/kumqo658mam8gah8c-LibertyMutual.svg?auto=format%252Ccompress",
+              "alt": "liberty mutual logo"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/kumqoou5gtpuiwxbs-Sega.svg?auto=format%252Ccompress",
+              "alt": "sega logo"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/m2on54kf2d5m0gmuu-Indeed-logo-black.svg?auto=format%252Ccompress",
+              "alt": "indeed logo"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/lzk2zclsbhx3j3l29-cisco%201%20(1).svg?auto=format%252Ccompress",
+              "alt": "cisco"
+            }
+          ],
+          "verticalSpacing": {
+            "top": "xlarge",
+            "bottom": "xlarge"
+          },
+          "title#localised": true
+        },
+        "id": 1632336999815
+      },
+      {
+        "key": "BackgroundWrapper",
+        "props": {
+          "embeddedComponents": [
+            {
+              "key": "ScrollyStory",
+              "props": {
+                "theme": "inverse",
+                "noBackground": true,
+                "verticalSpacing": {
+                  "top": "xxlarge",
+                  "bottom": "small"
+                },
+                "sections": [
+                  {
+                    "title": "",
+                    "description": "",
+                    "image": "https://webimages.mongodb.com/_com_assets/cms/l2uyun9dol4x2d004-atlas-frame1.svg?auto=format%252Ccompress",
+                    "imageAlt": "Atlas architecture diagram.",
+                    "isPlaceholderSection": true,
+                    "cards": [],
+                    "imageAlt#localised": true
+                  },
+                  {
+                    "title": "Develop faster with the document model",
+                    "description": "Our JSON-like document data model maps to the objects in your application code. Its flexibility allows you to model for a wide variety of use cases while also enabling you to easily evolve your data structures.",
+                    "image": "https://webimages.mongodb.com/_com_assets/cms/l2uyv3si6v9wcpi3m-atlas-frame2.svg?auto=format%252Ccompress",
+                    "imageAlt": "Atlas architecture diagram highlighting key value pairs, relationships, objects, graphs, and geospatial within the Document Model category.",
+                    "isPlaceholderSection": false,
+                    "cards": [
+                      {
+                        "title": "Document databases",
+                        "brandedIconName": "atlas_database",
+                        "href": "https://www.mongodb.com/resources/basics/databases/document-databases",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Time Series",
+                        "brandedIconName": "mdb_time_series",
+                        "href": "https://www.mongodb.com/products/capabilities/time-series",
+                        "title#localised": true
+                      }
+                    ],
+                    "title#localised": true,
+                    "description#localised": true,
+                    "imageAlt#localised": true
+                  },
+                  {
+                    "title": "Work with data as code for any use case",
+                    "description": "Our unified query API is the most natural way to work with data in any form. Atlas extends MongoDB's flexibility and ease of use to building full-text search, real-time analytics, and event-driven experiences. Build a wide range of application services while keeping your data architecture simple.",
+                    "image": "https://webimages.mongodb.com/_com_assets/cms/l2uyvj18mjdj95s06-atlas-frame3.svg?auto=format%252Ccompress",
+                    "imageAlt": "Atlas architecture diagram highlighting transactional, search, time series, mobile, and analytical within the Unified Query API category.",
+                    "isPlaceholderSection": false,
+                    "cards": [
+                      {
+                        "title": "Vector Search",
+                        "brandedIconName": "mdb_vector_search",
+                        "href": "/products/platform/atlas-vector-search",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Search",
+                        "brandedIconName": "atlas_search",
+                        "href": "https://www.mongodb.com/products/platform/atlas-search",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Atlas Stream Processing",
+                        "brandedIconName": "atlas_stream_processing",
+                        "href": "/products/platform/atlas-stream-processing",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Query API",
+                        "brandedIconName": "atlas_query_api",
+                        "href": "https://www.mongodb.com/products/tools/mongodb-query-api",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Data Federation",
+                        "brandedIconName": "atlas_data_federation",
+                        "href": "https://www.mongodb.com/products/platform/atlas-data-federation",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Edge and Mobile",
+                        "brandedIconName": "realm_mobile",
+                        "href": "https://www.mongodb.com/solutions/use-cases/edge-and-mobile",
+                        "title#localised": true
+                      }
+                    ],
+                    "title#localised": true,
+                    "description#localised": true,
+                    "imageAlt#localised": true
+                  },
+                  {
+                    "title": "Scale your workloads securely and confidently",
+                    "description": "A trusted foundation is at the core of everything we offer. Start with built-in data security and recovery defaults, then add the controls you need. Run applications anywhere in the world with the global and multi-cloud reach of Atlas.",
+                    "image": "https://webimages.mongodb.com/_com_assets/cms/l2uyw7d2ghngix351-atlas-frame4.svg?auto=format%252Ccompress",
+                    "imageAlt": "Atlas architecture diagram highlighting security, multi-cloud, and distributed architecture within the Platform Foundation category.",
+                    "isPlaceholderSection": false,
+                    "cards": [
+                      {
+                        "title": "End-to-end security",
+                        "brandedIconName": "general_security",
+                        "href": "https://www.mongodb.com/products/capabilities/security",
+                        "title#localised": true
+                      },
+                      {
+                        "title": "Multi-cloud",
+                        "brandedIconName": "cloud_multicloud",
+                        "href": "https://www.mongodb.com/cloud/atlas/multicloud-data-distribution",
+                        "title#localised": true
+                      }
+                    ],
+                    "title#localised": true,
+                    "description#localised": true,
+                    "imageAlt#localised": true
+                  }
+                ]
+              },
+              "id": 1634150708417
+            }
+          ],
+          "backgroundImages": [
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/kura9kf4ta6mvgsoc-left-scrolly.svg?auto=format%252Ccompress",
+              "position": "top -1px left"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/kuraaexarnvsdrus5-right-scrolly.svg?auto=format%252Ccompress",
+              "position": "top -1px right"
+            }
+          ],
+          "backgroundSize": "",
+          "backgroundColor": "blue80"
+        },
+        "id": 1634150697363
+      },
+      {
+        "key": "CodeSnippet",
+        "props": {
+          "heading": "Built for the way you work with data",
+          "subheading": "Our platform is built by developers, for developers. That means giving you the flexibility to work with the languages and tools you prefer to use.",
+          "ctaButton": {
+            "text": "View Documentation",
+            "href": "https://www.mongodb.com/docs/",
+            "text#localised": true
+          },
+          "tabs": [
+            {
+              "header": "Deploy a database",
+              "description": "Create a cloud database in seconds using the Atlas UI, CLI, Kubernetes Operator, or an Infrastructure-as-Code (IaC) resource provider. Play around with a free cluster, launch a flex tier instance, or customize a dedicated cluster configuration.",
+              "linkCta": {
+                "text": "Get started with Atlas",
+                "href": "https://www.mongodb.com/docs/atlas/getting-started/",
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "codeBlock": {
+                "snippets": [
+                  {
+                    "language": "Shell",
+                    "code": "#Install the Atlas CLI\nbrew install mongodb-atlas\n\n#Sign up for an Atlas account and configure your Atlas database\natlas setup",
+                    "alias": "Atlas CLI",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "Shell",
+                    "code": "# Installation\nterraform {\n  required_providers {\n    mongodbatlas = {\n      source = \"mongodb/mongodbatlas\"\n      version = \"1.0.0\"\n    }\n  }\n}\n\nprovider \"mongodbatlas\" {\n  # Configuration options\n}\n\n# Example AWS cluster\nresource \"mongodbatlas_cluster\" \"cluster-test\" {\n  project_id   = \"<YOUR-PROJECT-ID>\"\n  name         = \"cluster-test\"\n  cluster_type = \"REPLICASET\"\n  replication_specs {\n    num_shards = 1\n    regions_config {\n      region_name     = \"US_EAST_1\"\n      electable_nodes = 3\n      priority        = 7\n      read_only_nodes = 0\n    }\n  }\n  provider_backup_enabled      = true\n  auto_scaling_disk_gb_enabled = true\n  mongo_db_major_version       = \"5.0\"\n\n  # Provider Settings\n  provider_name               = \"AWS\"\n  provider_instance_size_name = \"M40\"\n}",
+                    "alias": "Terraform",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "Shell",
+                    "code": "git clone https://github.com/mongodb-developer/get-started-aws-cfn\ncd get-started-aws-cfn\n\n# Deploy MongoDB Atlas CFN Resources into your AWS Region\naws configure set region eu-west-3\n./get-setup.sh\n./get-started.sh\n\n<PUBLIC_KEY> <PRIVATE_KEY> <ORG_ID> <GETSTARTED_NAME> \n\n# Connect to your cluster\nGETSTARTED_NAME=\"get-started-aws-quickstart\"\nMDB=$(aws cloudformation list-exports | \\\n jq -r --arg stackname \"${GETSTARTED_NAME}\" \\\n '.Exports[] | select(.Name==$stackname+\"-ClusterSrvAddress\") | .Value')\necho \"Found stack:${GETSTARTED_NAME} with ClusterSrvAddress: ${MDB}\"\n\n# Test AWS IAM connection\n./test-iam-mongo-connection.sh NewRoleBased-1\nFound stack:NewRoleBased-1 with ClusterSrvAddress: mongodb+srv://cluster-1.5hmwe.mongodb.net\nSTACK_ROLE={\n    \"StackResources\": [\n        {\n            \"StackName\": \"NewRoleBased-1\",\n...\nMongoDB shell version v4.4.1\nconnecting to: mongodb://cluster-1-shard-00-00.5hmwe.mongodb.net:27017,cluster-1-shard-00-01.5hmwe.mongodb.net:27017,cluster-1-shard-00-02.5hmwe.mongodb.net:27017/admin?authMechanism=MONGODB-AWS&authmechanismproperties=AWS_SESSION_TOKEN%3AIQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDQ4mV7RtfYCLrQwBg\n...\nPRIMARY>",
+                    "alias": "AWS CloudFormation",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "Go",
+                    "code": "# Deploy Atlas Kubernetes Operator to watch all namespaces.\nkubectl apply -f https://raw.githubusercontent.com/mongodb/mongodb-atlas-kubernetes/<version>/deploy/all-in-one.yaml\n\n# Create a secret with your API keys and organization ID\nkubectl create secret generic mongodb-atlas-operator-api-key \\\n    --from-literal=\"orgId=<atlas_organization_id>\" \\\n    --from-literal=\"publicApiKey=<atlas_api_public_key>\" \\\n    --from-literal=\"privateApiKey=<atlas_api_private_key>\" \\\n    -n mongodb-atlas-system\n\nkubectl label secret mongodb-atlas-operator-api-key atlas.mongodb.com/type=credentials -n mongodb-atlas-system\n\n# Create the AtlasDeployment custom resource.\ncat <<EOF | kubectl apply -f -\napiVersion: atlas.mongodb.com/v1\nkind: AtlasDeployment\nmetadata:\n  name: my-atlas-cluster\nspec:\n  projectRef:\n    name: my-project\n  deploymentSpec:\n    name: \"Test-cluster\"\n    providerSettings:\n      instanceSizeName: M10\n      providerName: AWS\n      regionName: US_EAST_1\nEOF\n",
+                    "alias": "Kubernetes Operator",
+                    "code#localised": true,
+                    "alias#localised": true
+                  }
+                ],
+                "copyButton": true,
+                "copyButtonPosition": "bottom",
+                "lineNumbers": true,
+                "lineWrapping": true,
+                "height": "large"
+              },
+              "header#localised": true,
+              "description#localised": true
+            },
+            {
+              "header": "Query data of any structure",
+              "description": "Our unified Query API makes it easy to work with any modern data such as arrays, geospatial, time series and more. Query, transform, and analyze data in place as your schema evolves.",
+              "linkCta": {
+                "text": "Learn about the MongoDB Query API",
+                "href": "https://www.mongodb.com/products/tools/mongodb-query-api",
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "codeBlock": {
+                "snippets": [
+                  {
+                    "language": "Shell",
+                    "code": "db.places.find(\n   {\n     location:\n       { $near:\n          {\n            $geometry: { type: \"Point\",  coordinates: [ -73.9667, 40.78 ] },\n            $minDistance: 1000,\n            $maxDistance: 5000\n          }\n       }\n   }\n)\n",
+                    "alias": "CRUD",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "JSON",
+                    "code": "db.zipcodes.aggregate( [\n   { $group:\n      {\n        _id: { state: \"$state\", city: \"$city\" },\n        pop: { $sum: \"$pop\" }\n      }\n   },\n   { $sort: { pop: 1 } },\n   { $group:\n      {\n        _id : \"$_id.state\",\n        biggestCity:  { $last: \"$_id.city\" },\n        biggestPop:   { $last: \"$pop\" },\n        smallestCity: { $first: \"$_id.city\" },\n        smallestPop:  { $first: \"$pop\" }\n      }\n   }\n] )\n",
+                    "alias": "Aggregation Pipeline",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "JSON",
+                    "code": "db.device_readings.aggregate([\n  {\"$setWindowFields\": {\n    \"partitionBy\": \"$deviceID\",\n    \"sortBy\": {\"timestamp\": 1},    \n    \"output\": {\n      \"consumedKilowattHours\": {\n        \"$integral\": {\n          \"input\": \"$powerKilowatts\",\n          \"unit\": \"hour\",\n        },\n        \"window\": {\n          \"range\": [-1, \"current\"],\n          \"unit\": \"hour\",\n        },\n      },\n    },\n  }},\n])\n",
+                    "alias": "Time Series",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "JSON",
+                    "code": "$pipeline = new Pipeline(\n    Stage::vectorSearch(\n        index: 'vector',\n        path: 'plot_embedding',\n        queryVector: [-0.0016261312, -0.028070757, -0.011342932],\n        numCandidates: 150,\n        limit: 5,\n    ),\n    Stage::project(\n        _id: 0,\n        title: 1,\n    ),\n);\n$cursor = $collection->aggregate($pipeline);\nforeach ($cursor as $doc) {\n    echo json_encode($doc), PHP_EOL;\n}",
+                    "alias": "Atlas Vector Search",
+                    "code#localised": true,
+                    "alias#localised": true
+                  }
+                ],
+                "copyButton": true,
+                "copyButtonPosition": "bottom",
+                "lineNumbers": true,
+                "lineWrapping": false,
+                "height": "large"
+              },
+              "header#localised": true,
+              "description#localised": true
+            },
+            {
+              "header": "Build your way",
+              "description": "Build queries with the MongoDB Shell, Compass, or directly in your programming language of choice.",
+              "linkCta": {
+                "text": "Browse all language libraries",
+                "href": "https://www.mongodb.com/docs/drivers/",
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "codeBlock": {
+                "snippets": [
+                  {
+                    "language": "Shell",
+                    "code": "db.inventory.insertMany([\n   { item: \"journal\", qty: 25, size: { h: 14, w: 21, uom: \"cm\" }, status: \"A\" },\n   { item: \"notebook\", qty: 50, size: { h: 8.5, w: 11, uom: \"in\" }, status: \"A\" },\n   { item: \"paper\", qty: 100, size: { h: 8.5, w: 11, uom: \"in\" }, status: \"D\" },\n   { item: \"planner\", qty: 75, size: { h: 22.85, w: 30, uom: \"cm\" }, status: \"D\" },\n   { item: \"postcard\", qty: 45, size: { h: 10, w: 15.25, uom: \"cm\" }, status: \"A\" }\n]);\n",
+                    "alias": "",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "Python",
+                    "code": "db.inventory.insert_many([\n    {\"item\": \"journal\",\n     \"qty\": 25,\n     \"size\": {\"h\": 14, \"w\": 21, \"uom\": \"cm\"},\n     \"status\": \"A\"},\n    {\"item\": \"notebook\",\n     \"qty\": 50,\n     \"size\": {\"h\": 8.5, \"w\": 11, \"uom\": \"in\"},\n     \"status\": \"A\"},\n    {\"item\": \"paper\",\n     \"qty\": 100,\n     \"size\": {\"h\": 8.5, \"w\": 11, \"uom\": \"in\"},\n     \"status\": \"D\"},\n    {\"item\": \"planner\",\n     \"qty\": 75, \"size\": {\"h\": 22.85, \"w\": 30, \"uom\": \"cm\"},\n     \"status\": \"D\"},\n    {\"item\": \"postcard\",\n     \"qty\": 45,\n     \"size\": {\"h\": 10, \"w\": 15.25, \"uom\": \"cm\"},\n     \"status\": \"A\"}])\n",
+                    "alias": "",
+                    "code#localised": true,
+                    "alias#localised": true
+                  },
+                  {
+                    "language": "Node",
+                    "code": "await db.collection('inventory').insertMany([\n  {\n    item: 'journal',\n    qty: 25,\n    size: { h: 14, w: 21, uom: 'cm' },\n    status: 'A'\n  },\n  {\n    item: 'notebook',\n    qty: 50,\n    size: { h: 8.5, w: 11, uom: 'in' },\n    status: 'A'\n  },\n  {\n    item: 'paper',\n    qty: 100,\n    size: { h: 8.5, w: 11, uom: 'in' },\n    status: 'D'\n  },\n  {\n    item: 'planner',\n    qty: 75,\n    size: { h: 22.85, w: 30, uom: 'cm' },\n    status: 'D'\n  },\n  {\n    item: 'postcard',\n    qty: 45,\n    size: { h: 10, w: 15.25, uom: 'cm' },\n    status: 'A'\n  }\n]);\n",
+                    "alias": "",
+                    "code#localised": true,
+                    "alias#localised": true
+                  }
+                ],
+                "copyButton": true,
+                "copyButtonPosition": "bottom",
+                "lineNumbers": true,
+                "lineWrapping": false,
+                "height": "large"
+              },
+              "header#localised": true,
+              "description#localised": true
+            }
+          ],
+          "verticalSpacingConfig": {
+            "variant": "zero",
+            "top": "zero",
+            "bottom": "xxlarge"
+          },
+          "noBackground": false,
+          "heading#localised": true,
+          "subheading#localised": true
+        },
+        "id": 1632517068183
+      },
+      {
+        "key": "LogoWall",
+        "props": {
+          "verticalSpacing": {
+            "top": "xxlarge",
+            "bottom": "zero"
+          },
+          "title": "",
+          "logos": []
+        },
+        "id": 1742987834365
+      },
+      {
+        "key": "BackgroundWrapper",
+        "props": {
+          "embeddedComponents": [
+            {
+              "key": "Slalom2",
+              "props": {
+                "align": 1,
+                "verticalSpacing": {
+                  "top": "large",
+                  "bottom": "large"
+                },
+                "image": "https://webimages.mongodb.com/_com_assets/cms/m8spja9phm4zr6hi5-Technical_ACTION_Developer(1)_Thumbnail.svg?auto=format%252Ccompress",
+                "imageAlt": "Illustration of hands typing on a laptop.",
+                "icon": "",
+                "title": "Boost your MongoDB Atlas skills",
+                "noAspect": true,
+                "titleType": "alternate",
+                "text": "Explore MongoDB Atlas fundamentals, from the document model to indexing strategies, to ensure your application’s success.",
+                "list": [],
+                "cta1text": "Start Learning",
+                "cta1url": "/resources/product/platform/atlas-learning-hub",
+                "cta1type": "button",
+                "cta1disableExpand": false,
+                "cta2text": "",
+                "cta2url": "",
+                "cta2type": "default",
+                "cta2disableExpand": false,
+                "theme": "inverse",
+                "noBackground": true,
+                "layout": 0,
+                "video": {
+                  "webm": "",
+                  "mp4": ""
+                },
+                "videoId": "",
+                "videoType": "",
+                "showControls": "",
+                "eyebrow": "",
+                "imageAlt#localised": true,
+                "title#localised": true,
+                "text#localised": true,
+                "cta1text#localised": true
+              },
+              "id": 1727177840625
+            }
+          ],
+          "backgroundImages": [
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/l9oh2ugr8krzen95i-low-left.svg?auto=format%252Ccompress",
+              "position": "left bottom"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/l9oh4k8vryvqwiqjx-top-right.svg?auto=format%252Ccompress",
+              "position": "top right"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/l9oh3rwg9aym0taqz-top-left.svg?auto=format%252Ccompress",
+              "position": "left top"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/l9oh47mkm9atw4u7s-low-right.svg?auto=format%252Ccompress",
+              "position": "bottom right"
+            },
+            {
+              "url": "https://webimages.mongodb.com/_com_assets/cms/lb12ujzsd98y9sima-shape-stable-home.svg?auto=format%252Ccompress",
+              "position": "right top"
+            }
+          ],
+          "backgroundSize": "",
+          "backgroundColor": "green80"
+        },
+        "id": 1727177449020
+      },
+      {
+        "key": "SectionOverviewV2",
+        "props": {
+          "title": "Build faster with a suite of \nintegrated data services",
+          "text": "",
+          "titleVariant": 0,
+          "titleColor": 0,
+          "noBackground": false,
+          "theme": "default",
+          "cta1": {
+            "text": "Try Free",
+            "href": "/cloud/atlas/register",
+            "openInNewWindow": false,
+            "faux": false,
+            "text#localised": true
+          },
+          "cta2": {
+            "text": "Contact sales",
+            "href": "https://www.mongodb.com/company/contact",
+            "openInNewWindow": false,
+            "faux": false,
+            "text#localised": true
+          },
+          "verticalSpacing": {
+            "top": "xxlarge",
+            "bottom": "medium"
+          },
+          "ctaDisableExpand": false,
+          "noDtpBackground": false,
+          "title#localised": true
+        },
+        "id": 1632337522857
+      },
+      {
+        "key": "CardGridV2",
+        "props": {
+          "verticalSpacing": {
+            "top": "medium",
+            "bottom": "xxlarge"
+          },
+          "layout": 1,
+          "outsideGutter": 0,
+          "gap": "loose",
+          "noBackground": false,
+          "cardBackground": false,
+          "typographySize": 0,
+          "imageryType": 1,
+          "ctaType": "link-chevron",
+          "alignment": 1,
+          "theme": "default",
+          "cardsPerRow": 2,
+          "flashCards": [
+            {
+              "iconConfig": {
+                "name": "atlas_database",
+                "size": "medium"
+              },
+              "imageConfig": {
+                "src": "",
+                "altText": "text"
+              },
+              "title": "Database",
+              "subtitle": "",
+              "pillText": "",
+              "text": "A multi-cloud database service built for resilience, scale, data privacy, and security.",
+              "listGlyph": 0,
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "primary",
+                  "href": "https://www.mongodb.com/products/platform/atlas-database",
+                  "target": "_self"
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "cmsListItems": [],
+              "horizontalLayout": false,
+              "title#localised": true,
+              "text#localised": true
+            },
+            {
+              "iconConfig": {
+                "name": "atlas_search",
+                "size": "medium",
+                "name#localised": true
+              },
+              "imageConfig": {
+                "src": "https://webimages.mongodb.com/_com_assets/cms/kpn3bptrambrpjkxn-02cloudhosted.png?auto=format%252Ccompress",
+                "altText": "cloud hosted",
+                "altText#localised": true
+              },
+              "title": "Search",
+              "subtitle": "",
+              "pillText": "",
+              "text": "Build relevance-based search 4x faster and for 77% lower cost than alternative search solutions.",
+              "listGlyph": 0,
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "primary",
+                  "href": "https://www.mongodb.com/products/platform/atlas-search",
+                  "target": "_self"
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "cmsListItems": [],
+              "horizontalLayout": false,
+              "title#localised": true,
+              "text#localised": true
+            },
+            {
+              "horizontalLayout": false,
+              "title": "Vector Search",
+              "subtitle": "",
+              "pillText": "",
+              "text": "Build intelligent applications powered by semantic search and generative AI over any type of data.",
+              "iconConfig": {
+                "name": "mdb_vector_search",
+                "size": ""
+              },
+              "imageConfig": {
+                "src": "",
+                "altText": ""
+              },
+              "listGlyph": "",
+              "cmsListItems": [],
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "",
+                  "href": "/products/platform/atlas-vector-search",
+                  "target": ""
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "title#localised": true,
+              "text#localised": true
+            },
+            {
+              "horizontalLayout": false,
+              "title": "Charts",
+              "subtitle": "",
+              "pillText": "",
+              "text": "Bring your data to life and get real-time insights with embeddable dashboards and visualizations.",
+              "iconConfig": {
+                "name": "atlas_charts",
+                "size": "medium"
+              },
+              "imageConfig": {
+                "src": "",
+                "altText": ""
+              },
+              "listGlyph": "",
+              "cmsListItems": [],
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "",
+                  "href": "https://www.mongodb.com/products/platform/atlas-charts",
+                  "target": "_self"
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "title#localised": true,
+              "text#localised": true
+            },
+            {
+              "horizontalLayout": false,
+              "title": "Atlas CLI",
+              "subtitle": "",
+              "pillText": "",
+              "text": "Create and manage your MongoDB Atlas database from the command line.",
+              "iconConfig": {
+                "name": "atlas_cli",
+                "size": "medium"
+              },
+              "imageConfig": {
+                "src": "",
+                "altText": ""
+              },
+              "listGlyph": "",
+              "cmsListItems": [],
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "",
+                  "href": "https://www.mongodb.com/products/tools/atlas-cli",
+                  "target": "_self"
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "title#localised": true,
+              "text#localised": true
+            },
+            {
+              "horizontalLayout": false,
+              "title": "Data Federation",
+              "subtitle": "",
+              "pillText": "",
+              "text": "Seamlessly query, transform, and aggregate data from one or more Atlas databases and AWS S3 buckets.",
+              "iconConfig": {
+                "name": "atlas_data_federation",
+                "size": "medium"
+              },
+              "imageConfig": {
+                "src": "",
+                "altText": ""
+              },
+              "listGlyph": "",
+              "cmsListItems": [],
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "",
+                  "href": "https://www.mongodb.com/products/platform/atlas-data-federation",
+                  "target": "_self"
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "title#localised": true,
+              "text#localised": true
+            },
+            {
+              "horizontalLayout": false,
+              "title": "Online Archive",
+              "subtitle": "",
+              "pillText": "",
+              "text": "Archive data from Atlas clusters to fully managed object storage and query it through a single endpoint.",
+              "iconConfig": {
+                "name": "atlas_online_archive",
+                "size": "medium"
+              },
+              "imageConfig": {
+                "src": "",
+                "altText": ""
+              },
+              "listGlyph": "",
+              "cmsListItems": [],
+              "cta": {
+                "text": "Learn more",
+                "config": {
+                  "variant": "",
+                  "href": "https://www.mongodb.com/products/platform/atlas-online-archive",
+                  "target": "_self"
+                },
+                "disableExpand": false,
+                "text#localised": true
+              },
+              "title#localised": true,
+              "text#localised": true
+            }
+          ],
+          "hasDivider": false,
+          "featuredCards": [],
+          "cbHasDivider": false,
+          "cardHasDivider": false,
+          "cardsExpandToFill": false,
+          "largeTitle": false
+        },
+        "id": 1632746531783
+      },
+      {
+        "key": "Footer",
+        "props": {
+          "toggle": 0,
+          "column1": {
+            "title": "Resources",
+            "maxWidth": "185",
+            "hasIcons": 0,
+            "className": "",
+            "items": [
+              {
+                "href": "/nosql-explained",
+                "text": "NoSQL Database Explained",
+                "isTarget": ""
+              },
+              {
+                "href": "/collateral/mongodb-architecture-guide",
+                "text": "MongoDB Architecture Guide",
+                "isTarget": ""
+              },
+              {
+                "href": "/products/mongodb-enterprise-advanced",
+                "text": "MongoDB Enterprise Advanced",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud/atlas",
+                "text": "MongoDB Atlas",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud/stitch",
+                "text": "MongoDB Stitch",
+                "isTarget": ""
+              },
+              {
+                "href": "//engineering.mongodb.com/",
+                "text": "MongoDB Engineering Blog",
+                "isTarget": "true"
+              }
+            ]
+          },
+          "column2": {
+            "title": "Education & Support",
+            "maxWidth": "150",
+            "hasIcons": 0,
+            "className": "",
+            "items": [
+              {
+                "href": "//university.mongodb.com/courses/catalog",
+                "text": "View Course Catalog",
+                "isTarget": "true"
+              },
+              {
+                "href": "//university.mongodb.com/certification",
+                "text": "Certification",
+                "isTarget": "true"
+              },
+              {
+                "href": "//docs.mongodb.com/manual/",
+                "text": "MongoDB Manual",
+                "isTarget": "true"
+              },
+              {
+                "href": "//docs.mongodb.com/manual/installation/",
+                "text": "Installation",
+                "isTarget": "true"
+              },
+              {
+                "href": "//support.mongodb.com/welcome",
+                "text": "Support",
+                "isTarget": ""
+              },
+              {
+                "href": "/faq",
+                "text": "FAQ",
+                "isTarget": ""
+              }
+            ]
+          },
+          "column3": {
+            "title": "Popular Topics",
+            "maxWidth": "300",
+            "hasIcons": 0,
+            "className": "be-ix-link-block",
+            "items": [
+              {
+                "href": "/cloud/atlas/aws-mongodb",
+                "text": "MongoDB on AWS",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud/atlas/mongodb-google-cloud",
+                "text": "MongoDB on Google Cloud",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud/atlas/multicloud-data-distribution",
+                "text": "Run MongoDB on Multiple Clouds with MongoDB Atlas",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud/atlas/migrate",
+                "text": "Migrate to MongoDB Atlas",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud-database",
+                "text": "What is a Cloud Database?",
+                "isTarget": ""
+              },
+              {
+                "href": "/blog/post/building-a-rest-api-with-mongodb-stitch",
+                "text": "Building a REST API with MongoDB Stitch",
+                "isTarget": ""
+              }
+            ]
+          },
+          "column4": {
+            "title": "About",
+            "maxWidth": "100",
+            "hasIcons": 0,
+            "className": "",
+            "items": [
+              {
+                "href": "/company",
+                "text": "MongoDB, Inc.",
+                "isTarget": ""
+              },
+              {
+                "href": "/leadership",
+                "text": "Leadership",
+                "isTarget": ""
+              },
+              {
+                "href": "/pressroom",
+                "text": "Press Room",
+                "isTarget": ""
+              },
+              {
+                "href": "/careers",
+                "text": "Careers",
+                "isTarget": ""
+              },
+              {
+                "href": "https://investors.mongodb.com",
+                "text": "Investors",
+                "isTarget": ""
+              },
+              {
+                "href": "/legal/legal-notices",
+                "text": "Legal Notices",
+                "isTarget": ""
+              },
+              {
+                "href": "/legal/privacy-policy",
+                "text": "Privacy Notice",
+                "isTarget": ""
+              },
+              {
+                "href": "/security",
+                "text": "Security Information",
+                "isTarget": ""
+              },
+              {
+                "href": "/cloud/trust",
+                "text": "Trust Center",
+                "isTarget": ""
+              },
+              {
+                "href": "/office-locations",
+                "text": "Office Locations",
+                "isTarget": ""
+              },
+              {
+                "href": "/community-code-of-conduct",
+                "text": "Code of Conduct",
+                "isTarget": ""
+              }
+            ]
+          },
+          "column5": {
+            "title": "Follow Us",
+            "maxWidth": "120",
+            "hasIcons": 1,
+            "className": "",
+            "items": [
+              {
+                "href": "//facebook.com/mongodb",
+                "text": "Facebook",
+                "isTarget": "true"
+              },
+              {
+                "href": "//github.com/mongodb",
+                "text": "Github",
+                "isTarget": "true"
+              },
+              {
+                "href": "//youtube.com/user/mongodb",
+                "text": "Youtube",
+                "isTarget": "true"
+              },
+              {
+                "href": "//twitter.com/mongodb",
+                "text": "Twitter",
+                "isTarget": "true"
+              },
+              {
+                "href": "//www.linkedin.com/company/mongodbinc/",
+                "text": "LinkedIn",
+                "isTarget": "true"
+              },
+              {
+                "href": "//slackpass.io/mongo-db",
+                "text": "Slack",
+                "isTarget": "true"
+              },
+              {
+                "href": "//stackoverflow.com/tags/mongodb/info",
+                "text": "StackOverflow",
+                "isTarget": "true"
+              }
+            ]
+          }
+        },
+        "id": "d5f094ce-ce6a-4ff4-894a-86d4d5b82603"
+      }
+    ],
+    "created_at": {
+      "$date": "2021-09-22T18:23:12.230Z"
+    },
+    "digital_transformation": {
+      "targetAudience": 0
+    },
+    "meta": {
+      "flora": true,
+      "noindex": false,
+      "title": "MongoDB Atlas | The Modern, Multi-Cloud Database",
+      "description": "MongoDB Atlas is the #1 modern, multi-cloud database that accelerates and simplifies how you build with data. Get started for free today!",
+      "title#localised": true,
+      "description#localised": true
+    },
+    "node_type": "content_block",
+    "owners": [],
+    "published_at": {
+      "$date": "2021-10-19T18:34:06.462Z"
+    },
+    "status": "published",
+    "updated_at": {
+      "$date": "2025-12-16T21:06:56.102Z"
+    },
+    "cms": {
+      "editedURL": true
+    },
+    "draft": true,
+    "globals": [
+      {
+        "_id": "6001f22ac1f95e773a0e0044",
+        "key": "AccountLogin",
+        "created_at": "2021-01-15T19:51:06.717Z",
+        "props": {
+          "title": "MongoDB Stands with the Black Community, changes",
+          "subtitle": "Join MongoDB in supporting organizations that are fighting for racial justice and equal opportunity",
+          "cta": {
+            "text": "Join Now",
+            "href": "https://mongodbforjustice.mongodb.events/",
+            "openInNewWindow": false,
+            "faux": false
+          },
+          "image": {
+            "desktop": "https://account.mongodb.com/static/images/auth/racial_justice_desktop_login.png",
+            "mobile": "https://account.mongodb.com/static/images/auth/racial_justice_mobile.png"
+          },
+          "artist": "Artwork by [Lo Harris](http://loharris.com/)"
+        },
+        "updated_at": "2026-01-15T20:00:43.744Z"
+      },
+      {
+        "_id": "60c127b5527761a42edca7bb",
+        "key": "TranslationFallbackBanner",
+        "created_at": "2021-06-09T20:42:29.953Z",
+        "updated_at": "2026-01-15T20:00:43.759Z",
+        "props": {
+          "text": "The contents of this page are not currently available in the selected language. However, we are committed to providing as much localized content as possible. Thanks for your patience."
+        },
+        "translations": {
+          "en-us": {
+            "text": "The contents of this page are not currently available in the selected language. However, we are committed to providing as much localized content as possible. Thanks for your patience."
+          },
+          "pt-br": {
+            "text": "O conteúdo desta página não está disponível no idioma selecionado no momento. No entanto, estamos comprometidos em oferecer o máximo de conteúdo localizado possível. Agradecemos a paciência."
+          },
+          "es": {
+            "text": "El contenido de esta página no está disponible actualmente en el idioma seleccionado. Sin embargo, nos comprometemos a proporcionar la mayor cantidad de contenido localizado posible. Gracias por tu paciencia."
+          },
+          "it-it": {
+            "text": "I contenuti di questa pagina non sono attualmente disponibili nella lingua selezionata. Tuttavia, ci impegniamo a fornire il maggior numero possibile di contenuti localizzati. Grazie per la pazienza."
+          },
+          "de-de": {
+            "text": "Die Inhalte dieser Seite sind derzeit nicht in der gewählten Sprache verfügbar. Wir arbeiten jedoch daran, so viele lokalisierte Inhalte wie möglich bereitzustellen. Vielen Dank für Ihre Geduld."
+          },
+          "fr-fr": {
+            "text": "Le contenu de cette page n'est actuellement pas disponible dans la langue sélectionnée. Nous mettons toutefois tout en œuvre pour proposer autant de contenu localisé que possible. Merci de votre patience."
+          },
+          "ja-jp": {
+            "text": "現在、このページの選択した言語のコンテンツはありません。ローカライズされたコンテンツをできるだけ多く提供できるよう取り組んでいます。しばらくお待ちください。"
+          },
+          "ko-kr": {
+            "text": "본 페이지 컨텐츠는 현재 선택된 언어로는 볼 수 없습니다. 가능한 빨리 현지화된 컨텐츠를 제공해 드리기 위해 노력하고 있습니다. 기다려 주셔서 감사합니다."
+          },
+          "zh-cn": {
+            "text": "本页面内容目前不支持所选语言。我们将尽可能提供更多的本地化内容。敬请期待。"
+          }
+        }
+      },
+      {
+        "_id": "616eeecda9b8227a40aa618c",
+        "key": "DTRolloutComponent",
+        "props": {
+          "targetAudience": "100",
+          "text": ""
+        },
+        "created_at": "2021-10-19T16:14:05.400Z",
+        "updated_at": "2026-01-15T20:00:43.778Z"
+      },
+      {
+        "_id": "6969449416e0c8ea94bdec8b",
+        "key": "PencilBanner",
+        "props": {
+          "pillText": "New",
+          "disabled": false,
+          "bannerTheme": 0,
+          "theme": "forestGreen",
+          "bannerText": "Catch the news and tech deep dives from SF's premier AI data platform event. <mark>Tune in ></mark>",
+          "href": "https://www.youtube.com/live/oD-FWsm9X4w",
+          "items": [
+            {
+              "bannerText": "2025 wrap-up: Voyage AI, AMP launch, & customer wins. Plus, 2026 predictions. <mark>Read blog ></mark>",
+              "pillText": "New",
+              "href": "https://www.mongodb.com/company/blog/events/mongodb-local-san-francisco-2026-ship-production-ai-faster?tck=pencil_banner"
+            },
+            {
+              "bannerText": "Build better RAG. Voyage 4 models & Reranking API are now on Atlas. <mark>Read blog ></mark>",
+              "pillText": "New",
+              "href": "https://blog.voyageai.com/2026/01/15/new-models-and-expanded-availability"
+            },
+            {
+              "pillText": "New",
+              "bannerText": "Introducing Automated Embedding: One-click vector search, no external models. <mark>Read blog ></mark>",
+              "href": "https://www.mongodb.com/company/blog/product-release-announcements/unlocking-ai-search-introducing-automated-embedding-in-mongodb-vector-search"
+            }
+          ],
+          "targetAudience": ""
+        },
+        "created_at": "2023-10-20T17:42:11.857Z",
+        "updated_at": "2026-01-15T20:00:43.786Z",
+        "translations": {
+          "en-us": {
+            "theme": "forestGreen",
+            "pillText": "New",
+            "bannerText": "Catch the news and tech deep dives from SF's premier AI data platform event. <mark>Tune in ></mark>",
+            "href": "https://www.youtube.com/live/oD-FWsm9X4w",
+            "bannerTheme": 0,
+            "disabled": false,
+            "items": [
+              {
+                "bannerText": "2025 wrap-up: Voyage AI, AMP launch, & customer wins. Plus, 2026 predictions. <mark>Read blog ></mark>",
+                "pillText": "New",
+                "href": "https://www.mongodb.com/company/blog/events/mongodb-local-san-francisco-2026-ship-production-ai-faster?tck=pencil_banner"
+              },
+              {
+                "bannerText": "Build better RAG. Voyage 4 models & Reranking API are now on Atlas. <mark>Read blog ></mark>",
+                "pillText": "New",
+                "href": "https://blog.voyageai.com/2026/01/15/new-models-and-expanded-availability"
+              },
+              {
+                "pillText": "New",
+                "bannerText": "Introducing Automated Embedding: One-click vector search, no external models. <mark>Read blog ></mark>",
+                "href": "https://www.mongodb.com/company/blog/product-release-announcements/unlocking-ai-search-introducing-automated-embedding-in-mongodb-vector-search"
+              }
+            ]
+          },
+          "pt-br": {
+            "bannerText": ""
+          },
+          "es": {
+            "bannerText": ""
+          },
+          "it-it": {
+            "bannerText": ""
+          },
+          "de-de": {
+            "bannerText": ""
+          },
+          "fr-fr": {
+            "bannerText": ""
+          },
+          "ja-jp": {
+            "bannerText": ""
+          },
+          "ko-kr": {
+            "bannerText": ""
+          },
+          "zh-cn": {
+            "bannerText": ""
+          }
+        }
+      }
+    ],
+    "locale": "en",
+    "saved_by": {
+      "_id": {
+        "$oid": "6422e1c37da4000012d57b01"
+      },
+      "user_name": "iuliia.shyshkina",
+      "permissions": {
+        "roles": [
+          "Content Lead",
+          "Translation",
+          "MOPS Lead",
+          "Translation",
+          "admin"
+        ],
+        "node_types": [
+          {
+            "type": "digital_transformation",
+            "actions": [
+              "translate"
+            ]
+          },
+          {
+            "type": "content_block",
+            "actions": [
+              "translate"
+            ]
+          },
+          {
+            "type": "blog_post",
+            "actions": [
+              "translate"
+            ]
+          },
+          {
+            "type": "webinar",
+            "actions": [
+              "translate"
+            ]
+          },
+          {
+            "type": "presentation",
+            "actions": [
+              "translate"
+            ]
+          },
+          {
+            "type": "event",
+            "actions": [
+              "translate"
+            ]
+          }
+        ],
+        "documents": [],
+        "collections": []
+      }
+    },
+    "updateHistory": [
+      {
+        "time": {
+          "$date": "2021-09-22T19:12:07.288Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-22T19:13:03.306Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-22T19:13:30.563Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-23T19:20:13.881Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-23T19:22:27.647Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-24T21:07:01.185Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-24T21:23:07.993Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-24T21:23:41.566Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-24T21:23:46.160Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-24T21:24:11.025Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:05:24.872Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:09:03.070Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:10:14.490Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:21:04.851Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:22:06.792Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:26:40.153Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:47:07.692Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:48:17.242Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:48:56.239Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:49:27.494Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T13:50:14.878Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T17:59:19.196Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T18:00:09.896Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-27T19:36:46.820Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-28T13:59:32.222Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-28T21:14:18.972Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-28T21:15:32.671Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-28T21:24:43.697Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-28T21:25:01.420Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-09-28T22:56:46.417Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-01T12:06:46.353Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-01T12:08:37.521Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-01T12:09:17.039Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-01T12:10:31.816Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T12:57:18.890Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T13:01:36.917Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T14:17:50.918Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:05:20.804Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:08:08.816Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:41:19.849Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:45:10.869Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:46:53.404Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:48:33.211Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:49:08.177Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T20:49:38.665Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T21:02:36.397Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-11T21:04:15.693Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T16:59:11.441Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T17:36:09.395Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T17:43:57.854Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T17:48:13.828Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T17:49:00.511Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T17:50:11.137Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T17:52:38.408Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "setting page up"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T18:53:11.504Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T19:33:37.159Z"
+        },
+        "user_name": "jason.sears",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T19:51:48.531Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T20:21:23.661Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:32:39.406Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:33:21.069Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:34:02.657Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:35:25.597Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:36:02.477Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:36:37.977Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:37:15.122Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:37:47.288Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:38:18.487Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-13T21:38:48.087Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "Update final card grid links"
+      },
+      {
+        "time": {
+          "$date": "2021-10-14T14:20:57.079Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "updated scrolly story images"
+      },
+      {
+        "time": {
+          "$date": "2021-10-14T16:15:39.188Z"
+        },
+        "user_name": "jason.sears",
+        "versionMessage": "updated scrolly story images"
+      },
+      {
+        "time": {
+          "$date": "2021-10-14T18:39:50.509Z"
+        },
+        "user_name": "erick.augusto.dasilva",
+        "versionMessage": "updated scrolly story cutouts"
+      },
+      {
+        "time": {
+          "$date": "2021-10-14T19:04:58.809Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": "update CTA text in 3 cards at bottom to Docs, Community, University"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T02:44:18.551Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T03:16:10.142Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T03:21:24.313Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T03:29:36.959Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T03:31:26.290Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T03:35:29.970Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T03:37:02.708Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T14:31:05.891Z"
+        },
+        "user_name": "jason.sears",
+        "versionMessage": " final_setup_alex_v2"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T18:37:07.363Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": " final_setup_alex"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T18:42:00.126Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": " final_setup_alex"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T18:42:28.126Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": " final_setup_alex"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T19:02:40.707Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T19:57:06.324Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing-updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T19:57:57.623Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing-updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T20:27:20.244Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing-updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T20:41:17.102Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing-updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T21:14:55.305Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing-updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T22:03:41.111Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "spacing updates"
+      },
+      {
+        "time": {
+          "$date": "2021-10-15T23:46:29.747Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-16T00:10:48.436Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-16T00:13:41.442Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-16T00:18:37.333Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:02:24.809Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:04:48.478Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:05:33.198Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:08:31.660Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:18:36.876Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:30:40.078Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-18T23:31:33.073Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "typos"
+      },
+      {
+        "time": {
+          "$date": "2021-10-19T16:16:40.111Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "code-change"
+      },
+      {
+        "time": {
+          "$date": "2021-10-19T18:34:06.462Z"
+        },
+        "user_name": "jason.sears",
+        "versionMessage": "code-change"
+      },
+      {
+        "time": {
+          "$date": "2021-10-22T21:39:15.636Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "updated CTAs"
+      },
+      {
+        "time": {
+          "$date": "2021-10-25T15:55:26.935Z"
+        },
+        "user_name": "alex.dao",
+        "versionMessage": "turned off 'noindex' to allow search crawling"
+      },
+      {
+        "time": {
+          "$date": "2021-10-26T22:08:42.410Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "spacing"
+      },
+      {
+        "time": {
+          "$date": "2021-10-26T22:12:17.576Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "spacing"
+      },
+      {
+        "time": {
+          "$date": "2021-10-26T22:16:07.806Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "spacing"
+      },
+      {
+        "time": {
+          "$date": "2021-10-27T14:42:17.156Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "10.27.21 updated terraform code"
+      },
+      {
+        "time": {
+          "$date": "2021-11-04T16:41:54.042Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "updated-code-block"
+      },
+      {
+        "time": {
+          "$date": "2021-11-04T16:45:31.238Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "updated-code-block"
+      },
+      {
+        "time": {
+          "$date": "2021-11-08T22:05:48.910Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "Updated illos and logos alt text"
+      },
+      {
+        "time": {
+          "$date": "2021-11-09T20:54:59.502Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "Updated illos and logos alt text"
+      },
+      {
+        "time": {
+          "$date": "2021-11-18T17:49:51.347Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "typo"
+      },
+      {
+        "time": {
+          "$date": "2021-11-29T19:15:57.851Z"
+        },
+        "user_name": "chris.randalls",
+        "versionMessage": "Added \"blog\" pill - CR"
+      },
+      {
+        "time": {
+          "$date": "2021-12-02T21:16:59.786Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "updated atlas architecture diagrams "
+      },
+      {
+        "time": {
+          "$date": "2021-12-03T16:55:45.567Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "updated logos alt text"
+      },
+      {
+        "time": {
+          "$date": "2022-01-14T20:49:27.660Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "img ratio update"
+      },
+      {
+        "time": {
+          "$date": "2022-01-18T18:49:09.759Z"
+        },
+        "user_name": "elisa.yi",
+        "versionMessage": "hero img ratio update"
+      },
+      {
+        "time": {
+          "$date": "2022-02-08T18:50:03.704Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "hero img ratio update"
+      },
+      {
+        "time": {
+          "$date": "2022-05-06T21:47:30.251Z"
+        },
+        "user_name": "chris.randalls",
+        "versionMessage": "Layer cake update - CR - 5/6"
+      },
+      {
+        "time": {
+          "$date": "2022-06-07T12:18:18.411Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "AL-World-updates"
+      },
+      {
+        "time": {
+          "$date": "2022-06-07T12:22:25.619Z"
+        },
+        "user_name": "andrew.lee",
+        "versionMessage": "AL-World-updates"
+      },
+      {
+        "time": {
+          "$date": "2022-07-07T19:00:13.821Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-12631 updated Atlas CLI code snippet"
+      },
+      {
+        "time": {
+          "$date": "2022-07-11T17:34:50.702Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-12631 updated Atlas CLI code snippet"
+      },
+      {
+        "time": {
+          "$date": "2022-07-18T21:55:32.284Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-11288 updated heading text"
+      },
+      {
+        "time": {
+          "$date": "2022-08-03T19:19:11.892Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "added rent the runway story"
+      },
+      {
+        "time": {
+          "$date": "2022-12-09T20:23:51.560Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-13870"
+      },
+      {
+        "time": {
+          "$date": "2022-12-12T20:10:25.506Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-13863 update"
+      },
+      {
+        "time": {
+          "$date": "2022-12-13T19:32:56.052Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-13863 update"
+      },
+      {
+        "time": {
+          "$date": "2023-03-10T14:09:11.072Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-14627 added pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2023-03-15T15:46:29.718Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-14627 removed pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2023-04-18T15:38:38.830Z"
+        },
+        "user_name": "sergii.chubatiuk",
+        "versionMessage": "WEBSITE-14913 online archive flesh card added"
+      },
+      {
+        "time": {
+          "$date": "2023-04-27T17:01:49.938Z"
+        },
+        "user_name": "michaleen.craig",
+        "versionMessage": "PathFactory"
+      },
+      {
+        "time": {
+          "$date": "2023-05-09T10:24:20.985Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-14940 Adding Kubernetes button"
+      },
+      {
+        "time": {
+          "$date": "2023-05-09T10:24:53.553Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-14940 Adding Kubernetes button"
+      },
+      {
+        "time": {
+          "$date": "2023-05-09T10:27:08.474Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-14940 Adding Kubernetes button"
+      },
+      {
+        "time": {
+          "$date": "2023-05-09T19:50:49.479Z"
+        },
+        "user_name": "michaleen.craig",
+        "versionMessage": "Updating PF assets"
+      },
+      {
+        "time": {
+          "$date": "2023-05-17T11:13:55.274Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "WEBSITE-14954 Swap Forrester Card for Builder Campaign"
+      },
+      {
+        "time": {
+          "$date": "2023-05-25T16:54:21.487Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "updated data lake description per Taylor's request"
+      },
+      {
+        "time": {
+          "$date": "2023-06-22T14:02:16.396Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": ".local update to Data Fed description"
+      },
+      {
+        "time": {
+          "$date": "2023-06-30T08:33:26.546Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "WEBSITE-15400 add new cards"
+      },
+      {
+        "time": {
+          "$date": "2023-06-30T08:35:21.036Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "WEBSITE-15400 add new cards"
+      },
+      {
+        "time": {
+          "$date": "2023-07-13T16:05:54.443Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "added PF back in"
+      },
+      {
+        "time": {
+          "$date": "2023-08-21T09:01:18.736Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "added PF back in"
+      },
+      {
+        "time": {
+          "$date": "2023-08-21T09:03:09.087Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-14940 Adding Kubernetes button back"
+      },
+      {
+        "time": {
+          "$date": "2023-08-29T16:22:17.786Z"
+        },
+        "user_name": "sergii.chubatiuk",
+        "versionMessage": "WEBSITE-15598 Document Model PathFactory track"
+      },
+      {
+        "time": {
+          "$date": "2023-11-15T20:00:12.187Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-15929 dark mode pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2023-12-04T14:02:14.494Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-16017 Atlas Updates"
+      },
+      {
+        "time": {
+          "$date": "2023-12-07T21:25:26.185Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-16139 removed forrester report and section"
+      },
+      {
+        "time": {
+          "$date": "2024-01-16T13:04:53.536Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-16269 Gartner Magic Quadrant pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2024-01-18T19:36:08.907Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "WEBSITE-16293 added link to products"
+      },
+      {
+        "time": {
+          "$date": "2024-02-15T20:52:47.425Z"
+        },
+        "user_name": "daniel.vega",
+        "versionMessage": "WEBSITE-16293 added link to products"
+      },
+      {
+        "time": {
+          "$date": "2024-02-29T13:55:09.576Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "azure adf pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2024-05-02T14:07:19.946Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-16814 .local update"
+      },
+      {
+        "time": {
+          "$date": "2024-07-23T13:09:06.495Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-16814 .local update"
+      },
+      {
+        "time": {
+          "$date": "2024-07-29T22:28:55.627Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-17381 natural language pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2024-08-06T19:58:25.755Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "removed boxed from logo wall"
+      },
+      {
+        "time": {
+          "$date": "2024-08-07T21:02:10.183Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-17429 added promo banner"
+      },
+      {
+        "time": {
+          "$date": "2024-09-30T18:53:35.599Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "removed pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2024-10-02T10:01:18.821Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-17738 added 8.0 promo banner"
+      },
+      {
+        "time": {
+          "$date": "2024-10-02T10:21:06.121Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-17738 added 8.0 promo banner"
+      },
+      {
+        "time": {
+          "$date": "2024-10-02T10:36:56.218Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-17738 added 8.0 promo banner"
+      },
+      {
+        "time": {
+          "$date": "2024-10-03T14:28:57.983Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-17738 added 8.0 promo banner"
+      },
+      {
+        "time": {
+          "$date": "2024-10-10T13:26:19.093Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "WEBSITE-17833 removed the cards"
+      },
+      {
+        "time": {
+          "$date": "2024-10-25T11:21:47.899Z"
+        },
+        "user_name": "sergii.chubatiuk",
+        "versionMessage": "WEBSITE-17894 indeed logo added"
+      },
+      {
+        "time": {
+          "$date": "2025-01-17T20:11:06.280Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "WEBSITE-18354 MongoDB 8.0 Webinar Pencil Banner Promotions"
+      },
+      {
+        "time": {
+          "$date": "2025-02-06T16:38:03.999Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "remove MongoDB 8.0 Webinar Pencil Banner Promotions"
+      },
+      {
+        "time": {
+          "$date": "2025-02-06T18:05:36.280Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "updated Serverless"
+      },
+      {
+        "time": {
+          "$date": "2025-02-07T14:55:50.831Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "removed 8.0 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-02-12T17:00:49.372Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "gartner pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-02-13T14:49:04.669Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "gartner pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-02-13T17:09:11.412Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "gartner pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-02-24T16:39:46.607Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "2/24 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-02-24T21:19:00.103Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "updated pencil banner (voyage + 8.0)"
+      },
+      {
+        "time": {
+          "$date": "2025-02-25T20:40:49.398Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "updated pencil banner (voyage + 8.0)"
+      },
+      {
+        "time": {
+          "$date": "2025-02-26T11:35:11.241Z"
+        },
+        "user_name": "sergii.chubatiuk",
+        "versionMessage": "WEBSITE-18587 Hero CTA update"
+      },
+      {
+        "time": {
+          "$date": "2025-02-26T20:41:09.363Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18587 Hero CTA update"
+      },
+      {
+        "time": {
+          "$date": "2025-02-27T16:59:55.501Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-18604 pencil banner update"
+      },
+      {
+        "time": {
+          "$date": "2025-03-06T18:42:28.240Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "updated 8.0 pencil copy"
+      },
+      {
+        "time": {
+          "$date": "2025-03-18T19:04:15.048Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18697 updated meta and hero"
+      },
+      {
+        "time": {
+          "$date": "2025-03-25T19:37:03.843Z"
+        },
+        "user_name": "nick.smith",
+        "versionMessage": "WEBSITE-18697 Fix unclosed html tags"
+      },
+      {
+        "time": {
+          "$date": "2025-03-28T14:16:17.060Z"
+        },
+        "user_name": "sergii.chubatiuk",
+        "versionMessage": "WEBSITE-18736 Feature the Atlas Learning Hub - removed Start Building today"
+      },
+      {
+        "time": {
+          "$date": "2025-03-31T16:25:35.513Z"
+        },
+        "user_name": "nick.smith",
+        "versionMessage": "Atlas PROD - Fixed unclosed <b> HTML tag"
+      },
+      {
+        "time": {
+          "$date": "2025-04-16T20:14:25.321Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18889 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-04-30T20:56:36.403Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18978 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-05-07T14:37:55.573Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18978 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-05-08T15:59:46.357Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18978 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-05-15T21:15:01.144Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18978 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-05-15T21:16:51.445Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18978 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-05-22T21:12:06.967Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-18978 pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-05-28T11:51:08.345Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "data explorer pencil banner"
+      },
+      {
+        "time": {
+          "$date": "2025-06-10T19:28:52.110Z"
+        },
+        "user_name": "eric.renaud",
+        "versionMessage": "Mobile -> Mobile and Edge with new URL"
+      },
+      {
+        "time": {
+          "$date": "2025-07-15T16:52:45.969Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-19543 - AI AMER workshop"
+      },
+      {
+        "time": {
+          "$date": "2025-07-25T18:15:31.759Z"
+        },
+        "user_name": "sergii.chubatiuk",
+        "versionMessage": "view documentation link updated to be without redirect"
+      },
+      {
+        "time": {
+          "$date": "2025-07-31T16:00:14.313Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "view documentation link updated to be without redirect"
+      },
+      {
+        "time": {
+          "$date": "2025-07-31T16:02:06.321Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "view documentation link updated to be without redirect"
+      },
+      {
+        "time": {
+          "$date": "2025-07-31T17:07:01.763Z"
+        },
+        "user_name": "kutpudeen.rahiman",
+        "versionMessage": "WEBSITE-19569 update page"
+      },
+      {
+        "time": {
+          "$date": "2025-08-15T18:10:42.509Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-19569 update page"
+      },
+      {
+        "time": {
+          "$date": "2025-08-18T19:47:34.444Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-19569 update page"
+      },
+      {
+        "time": {
+          "$date": "2025-08-18T19:48:33.044Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-19569 update page"
+      },
+      {
+        "time": {
+          "$date": "2025-08-18T20:02:01.334Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-19569 update page"
+      },
+      {
+        "time": {
+          "$date": "2025-08-28T15:59:39.434Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "WEBSITE-19569 update page"
+      },
+      {
+        "time": {
+          "$date": "2025-11-21T16:15:23.485Z"
+        },
+        "user_name": "stef.falkowski",
+        "versionMessage": "gartner"
+      },
+      {
+        "time": {
+          "$date": "2025-11-30T17:37:19.538Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "Redirects in internal links"
+      },
+      {
+        "time": {
+          "$date": "2025-12-16T21:06:56.102Z"
+        },
+        "user_name": "iuliia.shyshkina",
+        "versionMessage": "Redirects in internal links"
+      }
+    ],
+    "versionMessage": "Redirects in internal links",
+    "meta_noindex": false,
+    "localised": true
+  },
+  "original_draft": "Redirects in internal links",
+  "original_url": "products/platform",
+  "map": [
+    "meta.title",
+    "meta.description",
+    "components[0].props.banner.items[0].pillText",
+    "components[0].props.banner.items[0].bannerText",
+    "components[0].props.banner.items[1].pillText",
+    "components[0].props.banner.items[1].bannerText",
+    "components[0].props.banner.items[2].pillText",
+    "components[0].props.banner.items[2].bannerText",
+    "components[1].props.ctaButton.text",
+    "components[1].props.ctaLink.text",
+    "components[1].props.eyebrow",
+    "components[1].props.title",
+    "components[1].props.description",
+    "components[1].props.imageAlt",
+    "components[2].props.embeddedComponents[0].props.imageAlt",
+    "components[2].props.embeddedComponents[0].props.title",
+    "components[2].props.embeddedComponents[0].props.text",
+    "components[2].props.embeddedComponents[0].props.cta1text",
+    "components[3].props.title",
+    "components[4].props.embeddedComponents[0].props.sections[0].imageAlt",
+    "components[4].props.embeddedComponents[0].props.sections[1].cards[0].title",
+    "components[4].props.embeddedComponents[0].props.sections[1].cards[1].title",
+    "components[4].props.embeddedComponents[0].props.sections[1].title",
+    "components[4].props.embeddedComponents[0].props.sections[1].description",
+    "components[4].props.embeddedComponents[0].props.sections[1].imageAlt",
+    "components[4].props.embeddedComponents[0].props.sections[2].cards[0].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].cards[1].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].cards[2].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].cards[3].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].cards[4].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].cards[5].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].title",
+    "components[4].props.embeddedComponents[0].props.sections[2].description",
+    "components[4].props.embeddedComponents[0].props.sections[2].imageAlt",
+    "components[4].props.embeddedComponents[0].props.sections[3].cards[0].title",
+    "components[4].props.embeddedComponents[0].props.sections[3].cards[1].title",
+    "components[4].props.embeddedComponents[0].props.sections[3].title",
+    "components[4].props.embeddedComponents[0].props.sections[3].description",
+    "components[4].props.embeddedComponents[0].props.sections[3].imageAlt",
+    "components[5].props.ctaButton.text",
+    "components[5].props.tabs[0].linkCta.text",
+    "components[5].props.tabs[0].codeBlock.snippets[0].code",
+    "components[5].props.tabs[0].codeBlock.snippets[0].alias",
+    "components[5].props.tabs[0].codeBlock.snippets[1].code",
+    "components[5].props.tabs[0].codeBlock.snippets[1].alias",
+    "components[5].props.tabs[0].codeBlock.snippets[2].code",
+    "components[5].props.tabs[0].codeBlock.snippets[2].alias",
+    "components[5].props.tabs[0].codeBlock.snippets[3].code",
+    "components[5].props.tabs[0].codeBlock.snippets[3].alias",
+    "components[5].props.tabs[0].header",
+    "components[5].props.tabs[0].description",
+    "components[5].props.tabs[1].linkCta.text",
+    "components[5].props.tabs[1].codeBlock.snippets[0].code",
+    "components[5].props.tabs[1].codeBlock.snippets[0].alias",
+    "components[5].props.tabs[1].codeBlock.snippets[1].code",
+    "components[5].props.tabs[1].codeBlock.snippets[1].alias",
+    "components[5].props.tabs[1].codeBlock.snippets[2].code",
+    "components[5].props.tabs[1].codeBlock.snippets[2].alias",
+    "components[5].props.tabs[1].codeBlock.snippets[3].code",
+    "components[5].props.tabs[1].codeBlock.snippets[3].alias",
+    "components[5].props.tabs[1].header",
+    "components[5].props.tabs[1].description",
+    "components[5].props.tabs[2].linkCta.text",
+    "components[5].props.tabs[2].codeBlock.snippets[0].code",
+    "components[5].props.tabs[2].codeBlock.snippets[0].alias",
+    "components[5].props.tabs[2].codeBlock.snippets[1].code",
+    "components[5].props.tabs[2].codeBlock.snippets[1].alias",
+    "components[5].props.tabs[2].codeBlock.snippets[2].code",
+    "components[5].props.tabs[2].codeBlock.snippets[2].alias",
+    "components[5].props.tabs[2].header",
+    "components[5].props.tabs[2].description",
+    "components[5].props.heading",
+    "components[5].props.subheading",
+    "components[7].props.embeddedComponents[0].props.imageAlt",
+    "components[7].props.embeddedComponents[0].props.title",
+    "components[7].props.embeddedComponents[0].props.text",
+    "components[7].props.embeddedComponents[0].props.cta1text",
+    "components[8].props.cta1.text",
+    "components[8].props.cta2.text",
+    "components[8].props.title",
+    "components[9].props.flashCards[0].cta.text",
+    "components[9].props.flashCards[0].title",
+    "components[9].props.flashCards[0].text",
+    "components[9].props.flashCards[1].iconConfig.name",
+    "components[9].props.flashCards[1].imageConfig.altText",
+    "components[9].props.flashCards[1].cta.text",
+    "components[9].props.flashCards[1].title",
+    "components[9].props.flashCards[1].text",
+    "components[9].props.flashCards[2].cta.text",
+    "components[9].props.flashCards[2].title",
+    "components[9].props.flashCards[2].text",
+    "components[9].props.flashCards[3].cta.text",
+    "components[9].props.flashCards[3].title",
+    "components[9].props.flashCards[3].text",
+    "components[9].props.flashCards[4].cta.text",
+    "components[9].props.flashCards[4].title",
+    "components[9].props.flashCards[4].text",
+    "components[9].props.flashCards[5].cta.text",
+    "components[9].props.flashCards[5].title",
+    "components[9].props.flashCards[5].text",
+    "components[9].props.flashCards[6].cta.text",
+    "components[9].props.flashCards[6].title",
+    "components[9].props.flashCards[6].text"
+  ],
+  "translate": [
+    "MongoDB Atlas | The Modern, Multi-Cloud Database",
+    "MongoDB Atlas is the #1 modern, multi-cloud database that accelerates and simplifies how you build with data. Get started for free today!",
+    "Announcement",
+    "Learn why MongoDB was named a Leader in the 2025 Gartner® Magic Quadrant™ <mark>Learn more ></mark>",
+    "ANNOUNCEMENT",
+    "<b>Voyage AI joins MongoDB to power more accurate and trustworthy AI applications on Atlas.</b> <mark>Learn more ></mark>",
+    "NEW",
+    "MongoDB 8.0: Experience unmatched speed and performance. <mark>Check it out ></mark>",
+    "Get Started",
+    "Document model benefits",
+    "MongoDB Atlas",
+    "<Mark>MongoDB Atlas.</Mark><br/>The modern multi-cloud database.",
+    "Atlas combines the flexible document model with a suite of data services to give you a versatile cloud database that simplifies everything you build.",
+    "An illustration of Database",
+    "Illustration of a booklet with various documents.",
+    "Accelerate your MongoDB Atlas journey",
+    "Master MongoDB Atlas quickly with guided webinars, interactive courses, skill badges, and comprehensive documentation—all designed to simplify your onboarding and accelerate success. Start building with confidence, faster.",
+    "Start Learning",
+    "TRUSTED BY THOUSANDS OF ORGANIZATIONS, INCLUDING",
+    "Atlas architecture diagram.",
+    "Document databases",
+    "Time Series",
+    "Develop faster with the document model",
+    "Our JSON-like document data model maps to the objects in your application code. Its flexibility allows you to model for a wide variety of use cases while also enabling you to easily evolve your data structures.",
+    "Atlas architecture diagram highlighting key value pairs, relationships, objects, graphs, and geospatial within the Document Model category.",
+    "Vector Search",
+    "Search",
+    "Atlas Stream Processing",
+    "Query API",
+    "Data Federation",
+    "Edge and Mobile",
+    "Work with data as code for any use case",
+    "Our unified query API is the most natural way to work with data in any form. Atlas extends MongoDB's flexibility and ease of use to building full-text search, real-time analytics, and event-driven experiences. Build a wide range of application services while keeping your data architecture simple.",
+    "Atlas architecture diagram highlighting transactional, search, time series, mobile, and analytical within the Unified Query API category.",
+    "End-to-end security",
+    "Multi-cloud",
+    "Scale your workloads securely and confidently",
+    "A trusted foundation is at the core of everything we offer. Start with built-in data security and recovery defaults, then add the controls you need. Run applications anywhere in the world with the global and multi-cloud reach of Atlas.",
+    "Atlas architecture diagram highlighting security, multi-cloud, and distributed architecture within the Platform Foundation category.",
+    "View Documentation",
+    "Get started with Atlas",
+    "#Install the Atlas CLI\nbrew install mongodb-atlas\n\n#Sign up for an Atlas account and configure your Atlas database\natlas setup",
+    "Atlas CLI",
+    "# Installation\nterraform {\n  required_providers {\n    mongodbatlas = {\n      source = \"mongodb/mongodbatlas\"\n      version = \"1.0.0\"\n    }\n  }\n}\n\nprovider \"mongodbatlas\" {\n  # Configuration options\n}\n\n# Example AWS cluster\nresource \"mongodbatlas_cluster\" \"cluster-test\" {\n  project_id   = \"<YOUR-PROJECT-ID>\"\n  name         = \"cluster-test\"\n  cluster_type = \"REPLICASET\"\n  replication_specs {\n    num_shards = 1\n    regions_config {\n      region_name     = \"US_EAST_1\"\n      electable_nodes = 3\n      priority        = 7\n      read_only_nodes = 0\n    }\n  }\n  provider_backup_enabled      = true\n  auto_scaling_disk_gb_enabled = true\n  mongo_db_major_version       = \"5.0\"\n\n  # Provider Settings\n  provider_name               = \"AWS\"\n  provider_instance_size_name = \"M40\"\n}",
+    "Terraform",
+    "git clone https://github.com/mongodb-developer/get-started-aws-cfn\ncd get-started-aws-cfn\n\n# Deploy MongoDB Atlas CFN Resources into your AWS Region\naws configure set region eu-west-3\n./get-setup.sh\n./get-started.sh\n\n<PUBLIC_KEY> <PRIVATE_KEY> <ORG_ID> <GETSTARTED_NAME> \n\n# Connect to your cluster\nGETSTARTED_NAME=\"get-started-aws-quickstart\"\nMDB=$(aws cloudformation list-exports | \\\n jq -r --arg stackname \"${GETSTARTED_NAME}\" \\\n '.Exports[] | select(.Name==$stackname+\"-ClusterSrvAddress\") | .Value')\necho \"Found stack:${GETSTARTED_NAME} with ClusterSrvAddress: ${MDB}\"\n\n# Test AWS IAM connection\n./test-iam-mongo-connection.sh NewRoleBased-1\nFound stack:NewRoleBased-1 with ClusterSrvAddress: mongodb+srv://cluster-1.5hmwe.mongodb.net\nSTACK_ROLE={\n    \"StackResources\": [\n        {\n            \"StackName\": \"NewRoleBased-1\",\n...\nMongoDB shell version v4.4.1\nconnecting to: mongodb://cluster-1-shard-00-00.5hmwe.mongodb.net:27017,cluster-1-shard-00-01.5hmwe.mongodb.net:27017,cluster-1-shard-00-02.5hmwe.mongodb.net:27017/admin?authMechanism=MONGODB-AWS&authmechanismproperties=AWS_SESSION_TOKEN%3AIQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDQ4mV7RtfYCLrQwBg\n...\nPRIMARY>",
+    "AWS CloudFormation",
+    "# Deploy Atlas Kubernetes Operator to watch all namespaces.\nkubectl apply -f https://raw.githubusercontent.com/mongodb/mongodb-atlas-kubernetes/<version>/deploy/all-in-one.yaml\n\n# Create a secret with your API keys and organization ID\nkubectl create secret generic mongodb-atlas-operator-api-key \\\n    --from-literal=\"orgId=<atlas_organization_id>\" \\\n    --from-literal=\"publicApiKey=<atlas_api_public_key>\" \\\n    --from-literal=\"privateApiKey=<atlas_api_private_key>\" \\\n    -n mongodb-atlas-system\n\nkubectl label secret mongodb-atlas-operator-api-key atlas.mongodb.com/type=credentials -n mongodb-atlas-system\n\n# Create the AtlasDeployment custom resource.\ncat <<EOF | kubectl apply -f -\napiVersion: atlas.mongodb.com/v1\nkind: AtlasDeployment\nmetadata:\n  name: my-atlas-cluster\nspec:\n  projectRef:\n    name: my-project\n  deploymentSpec:\n    name: \"Test-cluster\"\n    providerSettings:\n      instanceSizeName: M10\n      providerName: AWS\n      regionName: US_EAST_1\nEOF\n",
+    "Kubernetes Operator",
+    "Deploy a database",
+    "Create a cloud database in seconds using the Atlas UI, CLI, Kubernetes Operator, or an Infrastructure-as-Code (IaC) resource provider. Play around with a free cluster, launch a flex tier instance, or customize a dedicated cluster configuration.",
+    "Learn about the MongoDB Query API",
+    "db.places.find(\n   {\n     location:\n       { $near:\n          {\n            $geometry: { type: \"Point\",  coordinates: [ -73.9667, 40.78 ] },\n            $minDistance: 1000,\n            $maxDistance: 5000\n          }\n       }\n   }\n)\n",
+    "CRUD",
+    "db.zipcodes.aggregate( [\n   { $group:\n      {\n        _id: { state: \"$state\", city: \"$city\" },\n        pop: { $sum: \"$pop\" }\n      }\n   },\n   { $sort: { pop: 1 } },\n   { $group:\n      {\n        _id : \"$_id.state\",\n        biggestCity:  { $last: \"$_id.city\" },\n        biggestPop:   { $last: \"$pop\" },\n        smallestCity: { $first: \"$_id.city\" },\n        smallestPop:  { $first: \"$pop\" }\n      }\n   }\n] )\n",
+    "Aggregation Pipeline",
+    "db.device_readings.aggregate([\n  {\"$setWindowFields\": {\n    \"partitionBy\": \"$deviceID\",\n    \"sortBy\": {\"timestamp\": 1},    \n    \"output\": {\n      \"consumedKilowattHours\": {\n        \"$integral\": {\n          \"input\": \"$powerKilowatts\",\n          \"unit\": \"hour\",\n        },\n        \"window\": {\n          \"range\": [-1, \"current\"],\n          \"unit\": \"hour\",\n        },\n      },\n    },\n  }},\n])\n",
+    "Time Series",
+    "$pipeline = new Pipeline(\n    Stage::vectorSearch(\n        index: 'vector',\n        path: 'plot_embedding',\n        queryVector: [-0.0016261312, -0.028070757, -0.011342932],\n        numCandidates: 150,\n        limit: 5,\n    ),\n    Stage::project(\n        _id: 0,\n        title: 1,\n    ),\n);\n$cursor = $collection->aggregate($pipeline);\nforeach ($cursor as $doc) {\n    echo json_encode($doc), PHP_EOL;\n}",
+    "Atlas Vector Search",
+    "Query data of any structure",
+    "Our unified Query API makes it easy to work with any modern data such as arrays, geospatial, time series and more. Query, transform, and analyze data in place as your schema evolves.",
+    "Browse all language libraries",
+    "db.inventory.insertMany([\n   { item: \"journal\", qty: 25, size: { h: 14, w: 21, uom: \"cm\" }, status: \"A\" },\n   { item: \"notebook\", qty: 50, size: { h: 8.5, w: 11, uom: \"in\" }, status: \"A\" },\n   { item: \"paper\", qty: 100, size: { h: 8.5, w: 11, uom: \"in\" }, status: \"D\" },\n   { item: \"planner\", qty: 75, size: { h: 22.85, w: 30, uom: \"cm\" }, status: \"D\" },\n   { item: \"postcard\", qty: 45, size: { h: 10, w: 15.25, uom: \"cm\" }, status: \"A\" }\n]);\n",
+    "",
+    "db.inventory.insert_many([\n    {\"item\": \"journal\",\n     \"qty\": 25,\n     \"size\": {\"h\": 14, \"w\": 21, \"uom\": \"cm\"},\n     \"status\": \"A\"},\n    {\"item\": \"notebook\",\n     \"qty\": 50,\n     \"size\": {\"h\": 8.5, \"w\": 11, \"uom\": \"in\"},\n     \"status\": \"A\"},\n    {\"item\": \"paper\",\n     \"qty\": 100,\n     \"size\": {\"h\": 8.5, \"w\": 11, \"uom\": \"in\"},\n     \"status\": \"D\"},\n    {\"item\": \"planner\",\n     \"qty\": 75, \"size\": {\"h\": 22.85, \"w\": 30, \"uom\": \"cm\"},\n     \"status\": \"D\"},\n    {\"item\": \"postcard\",\n     \"qty\": 45,\n     \"size\": {\"h\": 10, \"w\": 15.25, \"uom\": \"cm\"},\n     \"status\": \"A\"}])\n",
+    "",
+    "await db.collection('inventory').insertMany([\n  {\n    item: 'journal',\n    qty: 25,\n    size: { h: 14, w: 21, uom: 'cm' },\n    status: 'A'\n  },\n  {\n    item: 'notebook',\n    qty: 50,\n    size: { h: 8.5, w: 11, uom: 'in' },\n    status: 'A'\n  },\n  {\n    item: 'paper',\n    qty: 100,\n    size: { h: 8.5, w: 11, uom: 'in' },\n    status: 'D'\n  },\n  {\n    item: 'planner',\n    qty: 75,\n    size: { h: 22.85, w: 30, uom: 'cm' },\n    status: 'D'\n  },\n  {\n    item: 'postcard',\n    qty: 45,\n    size: { h: 10, w: 15.25, uom: 'cm' },\n    status: 'A'\n  }\n]);\n",
+    "",
+    "Build your way",
+    "Build queries with the MongoDB Shell, Compass, or directly in your programming language of choice.",
+    "Built for the way you work with data",
+    "Our platform is built by developers, for developers. That means giving you the flexibility to work with the languages and tools you prefer to use.",
+    "Illustration of hands typing on a laptop.",
+    "Boost your MongoDB Atlas skills",
+    "Explore MongoDB Atlas fundamentals, from the document model to indexing strategies, to ensure your application’s success.",
+    "Start Learning",
+    "Try Free",
+    "Contact sales",
+    "Build faster with a suite of \nintegrated data services",
+    "Learn more",
+    "Database",
+    "A multi-cloud database service built for resilience, scale, data privacy, and security.",
+    "atlas_search",
+    "cloud hosted",
+    "Learn more",
+    "Search",
+    "Build relevance-based search 4x faster and for 77% lower cost than alternative search solutions.",
+    "Learn more",
+    "Vector Search",
+    "Build intelligent applications powered by semantic search and generative AI over any type of data.",
+    "Learn more",
+    "Charts",
+    "Bring your data to life and get real-time insights with embeddable dashboards and visualizations.",
+    "Learn more",
+    "Atlas CLI",
+    "Create and manage your MongoDB Atlas database from the command line.",
+    "Learn more",
+    "Data Federation",
+    "Seamlessly query, transform, and aggregate data from one or more Atlas databases and AWS S3 buckets.",
+    "Learn more",
+    "Online Archive",
+    "Archive data from Atlas clusters to fully managed object storage and query it through a single endpoint."
+  ]
+}
