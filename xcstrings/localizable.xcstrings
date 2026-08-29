@@ -1,16 +1,40 @@
 {
-    "sourceLanguage" : "en",
-    "strings" : {
-      "Hello world!" : {
-        "localizations" : {
-          "en" : {
-            "stringUnit" : {
-              "state" : "translated",
-              "value" : "Hi there!"
-            }
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Hello world!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi there!"
+          }
+        },
+        "de-DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi there!"
+          }
+        },
+        "fr-FR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour !"
+          }
+        },
+        "nb-NO" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hei på dere!"
           }
         }
       }
-    },
-    "version" : "1.0"
-  }
+    }
+  },
+  "version" : "1.0"
+}
