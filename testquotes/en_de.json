@@ -1,0 +1,4 @@
+{
+    "deleteUserConfirmation": "Sind Sie sicher, dass Sie den Benutzerdatensatz '{{username}} ' löschen möchten?",
+    "deleteUserConfirmation2": "Möchten Sie den Benutzerdatensatz {{username}} wirklich löschen?"
+}
