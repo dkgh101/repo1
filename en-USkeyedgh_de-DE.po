@@ -1,0 +1,274 @@
+# smartling.entity_escaping = false
+# smartling.gettext_line_width = normalized : 800
+# smartling.placeholder_format_custom = \{\{([^}]+)\}\}|\{([^}]+)\}
+# smartling.gettext_parsing_mode = keyed
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-28 12:09+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: de_DE\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "1—15 employees"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.email_header_subtext"
+msgstr ""
+
+msgid "16—49 employees"
+msgstr ""
+
+msgid "200—1,999 employees"
+msgstr ""
+
+msgid "2000+ employees"
+msgstr ""
+
+msgid "50—199 employees"
+msgstr ""
+
+msgid "Acme"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.company_header_subtext"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.company_size_header_subtext"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.fin_sales_agent.company_sidebar_header"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.early_stage.email_header_title"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.partner.email_header_title"
+msgstr ""
+
+msgid "At least 10 characters"
+msgstr ""
+
+msgid "By starting a free trial, you agree to Intercom’s<0/><1>Privacy Policy</1> and <2>Terms of Service</2>."
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.fin_sales_agent.email_header_subtext"
+msgstr ""
+
+msgid "Coming in to land..."
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Company name is too long"
+msgstr ""
+
+msgid "Company size"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Continue with Google"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.name_header_subtext"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.company_sidebar_header"
+msgstr ""
+
+msgid "Email is too long"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.fin_sales_agent.name_sidebar_header"
+msgstr ""
+
+msgid "Enter password"
+msgstr ""
+
+msgid "Evolution takes time..."
+msgstr ""
+
+msgid "Expanding the universe..."
+msgstr ""
+
+msgid "Full name"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.company_size_sidebar_header"
+msgstr ""
+
+msgid "Get updates about upcoming events, webinars, product announcements and helpful resources."
+msgstr ""
+
+msgid "Getting started..."
+msgstr ""
+
+msgid "Hello, {firstName}. How can we help?"
+msgstr ""
+
+msgid "Help center preview"
+msgstr ""
+
+msgid "Hide password"
+msgstr ""
+
+msgid "Invalid company size"
+msgstr ""
+
+msgid "Jane"
+msgstr ""
+
+msgid "Jordan Quinn"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Messenger preview"
+msgstr ""
+
+msgid "Name is too long"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is too long"
+msgstr ""
+
+msgid "Password must be at least 10 characters"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.company_size_header_title"
+msgstr ""
+
+msgid "Please enter a first and last name"
+msgstr ""
+
+msgid "Please enter a valid email address"
+msgstr ""
+
+msgid "Please enter your company name"
+msgstr ""
+
+msgid "Please select your company size"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.fin_sales_agent.company_size_sidebar_header"
+msgstr ""
+
+msgid "Reload page"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.name_header_title"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.company_header_title"
+msgstr ""
+
+msgid "Shifting the paradigm..."
+msgstr ""
+
+msgid "Show password"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign out"
+msgstr ""
+
+msgid "Something went wrong"
+msgstr ""
+
+msgid "Something went wrong with your invite link. Start a free trial instead."
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.fin_sales_agent.email_header_title"
+msgstr ""
+
+msgid "Start free trial"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.email_header_title"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.fin_ecommerce_agent.email_header_title"
+msgstr ""
+
+msgid "Taking Fin for a spin..."
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.name_sidebar_header"
+msgstr ""
+
+msgid "This invite link is invalid or has expired."
+msgstr ""
+
+msgid "This offer is no longer available. Start a free trial instead."
+msgstr ""
+
+msgid "Trial Fin only."
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.base.email_logo_wall_header"
+msgstr ""
+
+msgid "Want Fin for your current platform?"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.early_stage.email_header_subtext"
+msgstr ""
+
+#. js-lingui-explicit-id
+msgid "signup.partner.email_header_subtext"
+msgstr ""
+
+msgid "We've been notified. Reload the page to try again."
+msgstr ""
+
+msgid "you@yourcompany.com"
+msgstr ""
+
+msgid "Your Company"
+msgstr ""
+
+msgid "Your company email"
+msgstr ""
+
+msgid "Your Privacy Choices"
+msgstr ""

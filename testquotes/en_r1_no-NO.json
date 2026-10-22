@@ -1,0 +1,4 @@
+{
+    "deleteUserConfirmation": "Er du sikker på at du vil slette brukeroppføringen '{{'username'}}'?",
+    "deleteUserConfirmation2": "Er du sikker på at du vil slette brukeroppføringen {{username}}?"
+}
