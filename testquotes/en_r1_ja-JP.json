@@ -1,0 +1,4 @@
+{
+    "deleteUserConfirmation": "ユーザーレコード'{{'username'}}'を削除してもよろしいですか？",
+    "deleteUserConfirmation2": "ユーザーレコード{{username}}を削除してもよろしいですか？"
+}
